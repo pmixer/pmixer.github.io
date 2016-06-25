@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Tom Preston-Werner</title>
+ <link href="http://tom.preston-werner.com/atom.xml" rel="self"/>
+ <link href="http://tom.preston-werner.com/"/>
+ <updated>2016-06-25T16:55:48+08:00</updated>
+ <id>http://tom.preston-werner.com/</id>
+ <author>
+   <name>Tom Preston-Werner</name>
+   <email>tom@mojombo.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Markdown Tempate - 开始用Jekyll + GITHUB来写博客</title>
+   <link href="http://tom.preston-werner.com/2016/06/25/%E4%B8%AD%E6%96%87%E6%B5%8B%E8%AF%95.html"/>
+   <updated>2016-06-25T00:00:00+08:00</updated>
+   <id>http://tom.preston-werner.com/2016/06/25/中文测试</id>
+   <content type="html">&lt;h1 id=&quot;markdown-tempate---jekyll--github&quot;&gt;Markdown Tempate - 开始用Jekyll + GITHUB来写博客&lt;/h1&gt;
+
+&lt;p class=&quot;meta&quot;&gt;25 Jun 2016 - Beijing&lt;/p&gt;
+
+&lt;p&gt;如果您能够正常看到这句话，证明Jekyll搭建的Blog放到github上中文显示一切正常，真是简单好用!!!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Markdown Tempate - Start Using Jekyll for Blogging</title>
+   <link href="http://tom.preston-werner.com/2016/06/25/markdown-template.html"/>
+   <updated>2016-06-25T00:00:00+08:00</updated>
+   <id>http://tom.preston-werner.com/2016/06/25/markdown-template</id>
+   <content type="html">&lt;h1 id=&quot;markdown-tempate---start-using-jekyll-for-blogging&quot;&gt;Markdown Tempate - Start Using Jekyll for Blogging&lt;/h1&gt;
+
+&lt;p class=&quot;meta&quot;&gt;25 Jun 2016 - Beijing&lt;/p&gt;
+
+&lt;p&gt;Just clone the template from Tom’s repository and empty the _post and image folder.&lt;/p&gt;
+
+&lt;p&gt;Getting tired of dealing with complex configuration process and cloud services just for publishing articles.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
