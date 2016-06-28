@@ -4,13 +4,104 @@
  <title>Tom Preston-Werner</title>
  <link href="http://tom.preston-werner.com/atom.xml" rel="self"/>
  <link href="http://tom.preston-werner.com/"/>
- <updated>2016-06-25T16:55:48+08:00</updated>
+ <updated>2016-06-28T10:13:48+08:00</updated>
  <id>http://tom.preston-werner.com/</id>
  <author>
    <name>Tom Preston-Werner</name>
    <email>tom@mojombo.com</email>
  </author>
 
+ 
+ <entry>
+   <title>MOOCBook-Machine Learning(Andrew Ng, Coursera)</title>
+   <link href="http://tom.preston-werner.com/2016/06/28/MOOCBook-Machine-Learning(Andrew-Ng,-Coursera).html"/>
+   <updated>2016-06-28T00:00:00+08:00</updated>
+   <id>http://tom.preston-werner.com/2016/06/28/MOOCBook-Machine Learning(Andrew Ng, Coursera)</id>
+   <content type="html">&lt;h1 id=&quot;moocbook-machine-learningandrew-ng-coursera&quot;&gt;MOOCBook-Machine Learning(Andrew Ng, Coursera)&lt;/h1&gt;
+
+&lt;p class=&quot;meta&quot;&gt;28 Jun 2016 - Beijing&lt;/p&gt;
+
+&lt;h1 id=&quot;coursera-machine-learning&quot;&gt;Coursera Machine Learning课程笔记&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Created by Peter Huang on 2016/2/2， 说真的，看PPT比跟视频更省劲些。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;为什么选修这门课&lt;/h2&gt;
+&lt;p&gt;Andrew Ng的机器学习课程在国内算得上是大名鼎鼎了，在网易公开课的时代就已经收获大批粉丝；再加上传说中有选课同学作为机器学习新手借课程所学径直拿下Kaggle比赛的旧闻和Andrew在介绍视频里放出来的自己飞着玩的喜人的小直升机；这门课算得上是C站必修了。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;学到了啥&lt;/h2&gt;
+&lt;p&gt;写笔记的时候课程第一波跟的课程已经结束一年多了，也得以将这种总结性的东西搬到最前面来写；现身说法做做广告。在14年10月份保研求收留的时候，刚刚在Coursera上面注册了这门课程，在和导师聊天以及面试的时候都是顺口一提自己正在上这门课，却发现老师们对这门课程很是认可，如同看到一个检疫合格的戳，眼神里写着“嗯，这小子不坑”，不由得多聊两句，发现很多老师都觉得Andrew这门课程对于入门是完全够的，也难得有人能够将机器学习概念将地那么通俗易懂。到毕业设计也是拿着课程学到的现学现卖，至少在近几年课程的内容真的非常受用。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;还差哪&lt;/h2&gt;
+&lt;p&gt;讲真，在课程结束的时候并没能看到老师用来训练搞怪小飞机的理论(reinforcement learning的部分直接略去了)，课程通过多次刷quiz加上做编程作业的MATLAB填空，参考讨论区的信息，很快能够刷到满分；但是离赢下Kaggle比赛的水准还真是差了一大截;同时课程中使用的MATLAB的受欢迎程度远没有python，R这么高；在课程之后如果只是刷刷分数过去很容易迷失在各种软件工具使用里面，离了MATLAB笔者想用C写个简单的神经网络复现MNIST手写识别的工作目前还都在working(tuo yan)中，实际的代码会比课程demo复杂，而且，没有验证对错的程序=。=总之，这是一门平易近人的课程，最重要的是拨开流行技术的迷雾，让我们动手去做些东西同时启发关于机器学习技术的思索。修习这门课这是个开始，不要问课程之后自己得到了多少，问问在这其中自己付出多少，以后要如何去做才是更靠谱的学习姿势。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>MOOCBook-MIT6.00X</title>
+   <link href="http://tom.preston-werner.com/2016/06/28/MOOCBook-MIT6.00X.html"/>
+   <updated>2016-06-28T00:00:00+08:00</updated>
+   <id>http://tom.preston-werner.com/2016/06/28/MOOCBook-MIT6.00X</id>
+   <content type="html">&lt;h1 id=&quot;moocbook-mit600x&quot;&gt;MOOCBook-MIT6.00X&lt;/h1&gt;
+
+&lt;p class=&quot;meta&quot;&gt;28 Jun 2016 - Beijing&lt;/p&gt;
+
+&lt;h1 id=&quot;abstract-python&quot;&gt;Abstract-大叔们的Python课&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;笔记整理自网络获取的Eric Grimson与John V.Guttag开设的&lt;em&gt;6.00	Introduction	to Computer Science	and Programming&lt;/em&gt;课程资料&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;6.00x共由两部分组成，内容取自John编写的教材，基本都是Eric在讲课，具体内容按照章节列述内容如下：&lt;/p&gt;
+
+&lt;h2 id=&quot;x&quot;&gt;6.00.1x&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Week1-Introduction: 计算大法又快又好，我们关注于Imperative Knowledge试图用计算方法对各类问题加以解决；大叔没再像当年的公开课上那样讲隔壁大学的冷笑话。&lt;/li&gt;
+  &lt;li&gt;Week1-Core Elements: 计算机做的事情其实就俩，计算和存储；在这个基础上“欲求不满”的工程师们能构建出非常复杂的程序。在这节中，从基本的运算讲起，做加减乘除操作
+外加type()进行数据类型检测和int(),float()这些函数进行类型转换，用raw_input(prompt)获取输入；学过这节后，就算是围观过大叔写stright-line program和带简单分支的程序了，
+这个阶段的程序还相对简单，每条语句最多才运行一次。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;spotlight-&quot;&gt;Spotlight-重要的东西说三遍都不够，得写下来&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;晒课程中的干货&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;平方根求法(讲循环结构之前先来了一段循环)&lt;/h2&gt;
+&lt;p&gt;在介绍Imperative Knowledge与Declarative Knowledge的区别时，Eric举了个计算平方根的栗子：给出已知数y,为求得y的算数算数平方根我们进行以下操作：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;随机产生数g(shorthand for guess)&lt;/li&gt;
+  &lt;li&gt;计算g*g&lt;/li&gt;
+  &lt;li&gt;利用关于平方根的Declarative Knowledge进行验证(即比较g*g与y的大小)&lt;/li&gt;
+  &lt;li&gt;当g*g与y差的绝对值小于一个限定范围时，运行结束，输出g作为答案(近似平方根)，否则进行步骤5&lt;/li&gt;
+  &lt;li&gt;用式g = 1/2*(g+x/g)更新g值，即取相对于y平方根的过大值与过小值得平均进行逼近，进入步骤2&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;以上是算法的具体描述，这里留下两个作业给自己：
+  + 对于确定的y和给出的|y-g*g|的上界e，计算以上迭代过程要运行多少次结束，推导算法复杂度表达式
+  + 平方根是有了，立方根怎么算？更高次的呢？&lt;/p&gt;
+
+&lt;h2 id=&quot;turing-halting-problem&quot;&gt;Turing Halting Problem&lt;/h2&gt;
+&lt;p&gt;怎样判断一个程序是否会停止运行？听起来so easy，跑一遍就知道了？不不不，您误会了这个问题。图灵停机问题是要求使用程序判断另一个程序(比如一段源码)
+是否能够停止运行。Well，据称这已经被证明是不可能的，从侧面印证了计算机并不能协助处理所有问题，computational magic power也是有限的。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;插一句话，大一的时候一个传闻中的问题是：如何写一个不带文件读写操作的程序将自己的源码打印出来，unsolved。&lt;/li&gt;
+  &lt;li&gt;咋证明的，人云亦云可不好？&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;turing-complete&quot;&gt;Turing Complete&lt;/h2&gt;
+&lt;p&gt;图灵完备性，水果机背后标识纪念着的这位先生将人类的解题过程完全抽象成一支笔在一条纸带上来来回回写写画画的过程，而经其证明，一台通用计算机只要六种基本操作就够了，理论上想干啥就能干啥了。
+当问题看起来繁杂而难以解决的时候就将其分解开来，还复杂就再分解直到最终解决，想构建系统就通过层层抽象每一次在上一次的工作基础上机型构建，这种拆分方法和能够实现一种指数等级构建的框架是计算机编程人员的力量源泉，可惜不得其道常常落入重复工作的怪圈，没能驾驭机器的慢慢变得像极了机器。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;那啥，六个基本操作是哪六个？国防科大的计算机导论课上接触过图灵机模型但没好好记录下来。&lt;/li&gt;
+  &lt;li&gt;咋证明完备性&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Markdown Tempate - 开始用Jekyll + GITHUB来写博客</title>
@@ -22,21 +113,6 @@
 &lt;p class=&quot;meta&quot;&gt;25 Jun 2016 - Beijing&lt;/p&gt;
 
 &lt;p&gt;如果您能够正常看到这句话，证明Jekyll搭建的Blog放到github上中文显示一切正常，真是简单好用!!!&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Markdown Tempate - Start Using Jekyll for Blogging</title>
-   <link href="http://tom.preston-werner.com/2016/06/25/markdown-template.html"/>
-   <updated>2016-06-25T00:00:00+08:00</updated>
-   <id>http://tom.preston-werner.com/2016/06/25/markdown-template</id>
-   <content type="html">&lt;h1 id=&quot;markdown-tempate---start-using-jekyll-for-blogging&quot;&gt;Markdown Tempate - Start Using Jekyll for Blogging&lt;/h1&gt;
-
-&lt;p class=&quot;meta&quot;&gt;25 Jun 2016 - Beijing&lt;/p&gt;
-
-&lt;p&gt;Just clone the template from Tom’s repository and empty the _post and image folder.&lt;/p&gt;
-
-&lt;p&gt;Getting tired of dealing with complex configuration process and cloud services just for publishing articles.&lt;/p&gt;
 </content>
  </entry>
  
