@@ -1,2 +1,18 @@
+# Site settings
+title: Peter Huang's Blog
+email: 
+description: "A copy of Andrej Karpathy blog"
+baseurl: ""
+url: "http://talkwithme.cn"
+twitter_username: none
+github_username:  peterhuang2015
+
+# Build settings
 markdown: kramdown
+permalink: pretty
+
 highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge

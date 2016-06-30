@@ -1,12 +1,10 @@
 ---
 layout: post
-title: MOOCBook-Machine Learning(Andrew Ng, Coursera)
+comments: false
+title:  "MOOCBook-Machine Learning(Andrew Ng, Coursera)"
+excerpt: "在风靡祖国大江南北的Andrew机器学习课上记个笔记"
+date:   2016-06-29 22:08:00
 ---
-
-{{ page.title }}
-================
-
-<p class="meta">28 Jun 2016 - Beijing</p>
 
 # Coursera Machine Learning课程笔记
 > Created by Peter Huang on 2016/2/2， 说真的，看PPT比跟视频更省劲些。

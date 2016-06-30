@@ -1,0 +1,10 @@
+---
+layout: post
+comments: true
+title:  "Markdown Tempate - 开始用Jekyll + GITHUB来写博客"
+excerpt: "还是Andrej Karpathy的模板好用，字体大小刚好，markdown语法支持全"
+date:   2016-06-29 22:07:00
+---
+
+
+如果您能够正常看到这句话，证明Jekyll搭建的Blog放到github上中文显示一切正常，真是简单好用!!!ps，由于时区原因。。。在中国即时填写发布时间的blog文章是不能立刻发布出来的，奇奇怪怪。

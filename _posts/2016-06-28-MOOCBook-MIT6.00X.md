@@ -1,17 +1,15 @@
 ---
 layout: post
-title: MOOCBook-MIT6.00X
+comments: false
+title:  "MOOCBook-MIT6.00X"
+excerpt: "大叔们开设的python课"
+date:   2016-06-29 22:09:00
 ---
-
-{{ page.title }}
-================
-
-<p class="meta">28 Jun 2016 - Beijing</p>
 
 # Abstract-大叔们的Python课
 > 笔记整理自网络获取的Eric Grimson与John V.Guttag开设的*6.00	Introduction	to Computer Science	and Programming*课程资料
 
-6.00x共由两部分组成，内容取自John编写的教材，基本都是Eric在讲课，具体内容按照章节列述内容如下：
+6.00x共由两部分组成，内容取自John编写的教材，前半部分(6.00.1)基本都是Eric在讲课，后半部分(6.00.2)则由John进行说明，具体内容按照章节列述内容如下：
 
 ## 6.00.1x
 + Week1-Introduction: 计算大法又快又好，我们关注于Imperative Knowledge试图用计算方法对各类问题加以解决；大叔没再像当年的公开课上那样讲隔壁大学的冷笑话。
