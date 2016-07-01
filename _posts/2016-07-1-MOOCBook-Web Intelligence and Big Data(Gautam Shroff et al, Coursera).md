@@ -3,7 +3,7 @@ layout: post
 comments: false
 title:  "MOOCBook-Web Intelligence and Big Data(Gautam Shroff et al, Coursera)"
 excerpt: "印度老师带你游历互联网和大数据"
-date:   2016-07-01 15:20:00
+date:   2016-07-01 05:20:00
 ---
 
 # Coursera Web Intelligence and Big Data课程笔记

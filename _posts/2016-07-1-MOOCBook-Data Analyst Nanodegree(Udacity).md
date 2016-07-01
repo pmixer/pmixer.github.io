@@ -3,7 +3,7 @@ layout: post
 comments: false
 title:  "Data Analyst Nanodegree(Udacity)"
 excerpt: "Udacity数据分析师纳米学位附带说明书"
-date:   2016-07-01 21:20:00
+date:   2016-07-01 07:20:00
 ---
 
 # Udacity数据分析师纳米学位附带说明书

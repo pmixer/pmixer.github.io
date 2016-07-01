@@ -3,7 +3,7 @@ layout: post
 comments: false
 title:  "MOOCBook-Machine Learning(Hsuan-tien Lin, Coursera)"
 excerpt: "产自台大的良心课程"
-date:   2016-07-01 15:47:00
+date:   2016-07-01 05:47:00
 ---
 
 # Coursera 机器学习基石+技法课程笔记

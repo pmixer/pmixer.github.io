@@ -3,7 +3,7 @@ layout: post
 comments: false
 title:  "Intro to Programming Nanodegree(Udacity)"
 excerpt: "Udacity编程入门纳米学位附带说明书"
-date:   2016-07-01 16:10:00
+date:   2016-07-01 06:10:00
 ---
 
 # Udacity编程入门纳米学位附带说明书
