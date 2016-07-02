@@ -10,7 +10,7 @@ date:   2016-07-01 05:20:00
 > Created by Peter Huang on 2016/7/1
 
 ## 为什么选修这门课 
-来自印度小哥上不了IIT才去MIT那个段子里所讲的IIT，早期放在Coursera的课程之一，入门性质的课，里面有些像Local Sensitive Hash用于指纹识别这样很有意思的内容。
+来自印度小哥上不了IIT才去MIT那个段子里所讲的IIT，早期放在Coursera的课程之一，入门性质的课，里面有些像Local Sensitive Hash用于指纹识别这样很有意思的内容。还有很重点的东西-->老师会安利Kaggle竞赛。
 
 ## 课程笔记
 + 课程Poster上如同废物回收利用标志一样的圈圈由六个部分组成：Look, Listen, Learn, Connect, Predict, Correct，首尾相连成环用以阐述数据在网络中的流动与利用，分别代表着从数据收集到处理以及作出预测的若干部分；每一个部分具体的指代内容会在之后进行说明。
