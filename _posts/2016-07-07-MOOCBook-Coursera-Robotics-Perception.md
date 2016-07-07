@@ -14,7 +14,7 @@ Robotics-Perception is part of the series provided by Penn on Coursera and I pai
 
 ###### Alphabet
 + Vanishing point, Horizon, Optical center, Prependicular, peephole
-+ panoramic, magnifying glass, focusing
++ panoramic, magnifying glass, focusing, plummet
 
 ###### Week 1
 + Introduction-Prof Kostas Daniilidis and Prof Jianbo Shi(zi mu you du, ming zi dou da cuo le) are going to teach us how to extract information through images and videos.
@@ -24,10 +24,24 @@ Boundle adjustment for 3D reconstruction with more images. The course is challen
 
 + Camera modeling-What is a camera, an old question from high school physics class, gannets as example of distance measuring(paper about this animal by David N. Lee: Plummeting gannets: a paradigm of ecological optics).
 Kostas showed his camera(image/CCD chip and lens) collection, he mentioned the property of the thin lens.
-$$\frac{1}{f} = \frac{1}{a} + \frac{1}{b}$$
-focal length, object distance, image plane distance. Size ratio: $$\frac{Y}{a} = \frac{y}{b}$$. Multiple points on a line projects to the same point on the image plane.
+
+$$
+\frac{1}{f} = \frac{1}{a} + \frac{1}{b}
+$$
+
+focal length, object distance, image plane distance. Size ratio: 
+
+$$
+\frac{Y}{a} = \frac{y}{b}
+$$
+
+Multiple points on a line projects to the same point on the image plane.
 
 + Single view geometry-I thought we are looking down at first Prof Shi...Try to infer the geometry of the scene as well as how the camera man is looking into the scene.
 
 # Questions
-+ Why most precise image got when requirement of $$\frac{1}{f} = \frac{1}{a} + \frac{1}{b}$$ met.
++ Why most precise image got when requirement of 
+$$
+\frac{1}{f} = \frac{1}{a} + \frac{1}{b}
+$$
+met.
