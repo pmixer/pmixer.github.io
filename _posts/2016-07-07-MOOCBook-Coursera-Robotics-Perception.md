@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "MOOCBook-Coursera-Robotics-Perception"
 excerpt: "Do need to finish this course to concentrate on DAND"
-date:   2016-07-07 5:30:00
+date:   2016-07-07 05:30:00
 ---
 
 # Why this course?
