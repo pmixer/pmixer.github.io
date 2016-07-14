@@ -5,7 +5,6 @@ title:  "MOOCBook-Udacity-DAND"
 excerpt: "爱贪小便宜的薅羊毛君毅然入坑Udacity的数据分析师纳米学位"
 date:   2016-07-06 15:30:00
 ---
-
 > git reset --hard origin/master
 
 Udacity过五周年生日，七月十号之前凭官方微信公众号领取的优惠券充值享受555元优惠，业界良心，本来飞墙来到大陆从199刀变到980人民币每月就已经非常赞了，按照十二个月内完成返还一半学费算，这种干货满满的课程绝对超值。果断入坑从Data Analyst Nano Degree开始。
@@ -14,7 +13,7 @@ Udacity过五周年生日，七月十号之前凭官方微信公众号领取的�
 
 # 课程视频摘记
 
-***
+---
 
 #### Intro to Descriptive Statistics
 
@@ -137,6 +136,7 @@ Udacity过五周年生日，七月十号之前凭官方微信公众号领取的�
 + Data Types-Han Rosling's demo of health data, Bin, Categorical Data-Quantitive Data
 + Quiz: Identifying Data Types-
 
+---
 
 #### A/B Testing
 
