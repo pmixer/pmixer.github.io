@@ -6,13 +6,15 @@ excerpt: "爱贪小便宜的薅羊毛君毅然入坑Udacity的数据分析师纳
 date:   2016-07-06 15:30:00
 ---
 
-# 薅羊毛薅羊毛薅羊毛
 > git reset --hard origin/master
 
 Udacity过五周年生日，七月十号之前凭官方微信公众号领取的优惠券充值享受555元优惠，业界良心，本来飞墙来到大陆从199刀变到980人民币每月就已经非常赞了，按照十二个月内完成返还一半学费算，这种干货满满的课程绝对超值。果断入坑从Data Analyst Nano Degree开始。
 
+---
+
 # 课程视频摘记
 
+***
 
 #### Intro to Descriptive Statistics
 
@@ -24,12 +26,14 @@ Udacity过五周年生日，七月十号之前凭官方微信公众号领取的�
 + Quiz: Define Constructs-街头访问人们怎么定义快乐、记忆、痒、压力。
 + BBC Memory Test-
 
+---
+
 #### Intro to Inferential Statistics
 
 ###### Introduction and Lesson 7 Review
 + Lauren's Intro Video-Descriptive Statistic的后继课程，教人从数据中获得对一个具体问题的近似解答。Katie Kormanik主讲。
 
-
+---
 
 #### Intro to Data Analysis
 
@@ -44,21 +48,28 @@ Udacity过五周年生日，七月十号之前凭官方微信公众号领取的�
 + Quiz: Investigating the Data-Use set() for finding unique keys, code was provided and Caroline listed the numbers summerized from dataset
 + Quiz: Problems in the Data-Two questions, write code to solve the second one
 
+---
+
 #### Intro to Data Science
 
 ###### Lesson 1:Introduction
 + Introduction to Data Science-在TrialPay和Yub工作的Dave因为更喜欢实用技艺从物理转向数据科学，在这门偏理论课程里面，我们将了解DS干啥的，要成为DS要具备哪些能力，他们都在做什么Cool projects，最重要的，怎么解决问题！！！
+
+---
 
 #### Intro to Statistics
 
 ###### 1.Teaser
 + Welcome-Thrun和Adam Sherwin合讲的课程，额，漫画不错，Thrun好像在说统计有毒，骗人是分分钟的事情，比如通过统计我们知道你现在不受欢迎而且很不开心。(Brain Teaser)
 
+---
+
 #### Intro to Relational Databases
 
 ###### Data and Tables
 + Welcome to RDB-带我们学习后端工程师最重要的工具，课程五步走，概念上了解RDB里面数据的存储方式，基本SQL，Python接口进行操作，更多SQL，最终Project,ps，老师没说名字！！！
 
+---
 
 #### Data Wrangling with MongoDB
 
@@ -66,11 +77,14 @@ Udacity过五周年生日，七月十号之前凭官方微信公众号领取的�
 + Intro-Shanon Bradshow,大家平均花费70%的时间和DW这项工作打交道，如同数据科学的“食品安全问题”，课程教我们 gathering, extracting, cleaning, storing data，应对各种数据格式并使用mongoDB来完成工作。
 + ??
 
+---
 
 #### Data Analysis with R
 
 ###### What is EDA
 + Quiz: Data is Ubiquitious-Moira Burke, Chris Saden, Dean Eckles, Solomon Messing一起教大家Explortory Data Analysis，Chris前几个月刚刚从他Facebook的朋友那里学会R和EDA，Facebook处理的数据量很大，data.gov能够下载到很多有用数据，我们真正探索过的数据并不多，google trends是个不错的作搜索词分析的工具，FB有个叫prestodb的工具，每天处理peta级别的数据。
+
+---
 
 #### Introduction to Machine Learning
 
@@ -100,6 +114,7 @@ Udacity过五周年生日，七月十号之前凭官方微信公众号领取的�
 + Getting Started With sklearn-Always start from google
 + Gaussian NB Example-sklearn.naive_bayes.GaussianNB in python, 
 
+---
 
 #### Data Visualization and D3.js
 
