@@ -1,10 +1,10 @@
 # Site settings
 title: Peter Huang's Blog
-email: 
-description: "A copy of Andrej Karpathy blog"
+# email: 
+# description: ""
 baseurl: ""
 url: "http://talkwithme.cn"
-twitter_username: none
+# twitter_username: none
 github_username:  peterhuang2015
 
 # Build settings
