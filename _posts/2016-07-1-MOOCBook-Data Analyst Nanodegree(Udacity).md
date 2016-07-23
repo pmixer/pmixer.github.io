@@ -1,16 +1,22 @@
 ---
 layout: post
 comments: true
-title:  "MOOCBook-Udacity-DAND"
+title:  "MOOCBook-Data Analyst Nanodegree"
 excerpt: "爱贪小便宜的薅羊毛君毅然入坑Udacity的数据分析师纳米学位"
-date:   2016-07-06 15:30:00
+date:   2016-07-01 06:50:00
 ---
 
 > git reset --hard origin/master
 
 Udacity过五周年生日，七月十号之前凭官方微信公众号领取的优惠券充值享受555元优惠，业界良心，本来飞墙来到大陆从199刀变到980人民币每月就已经非常赞了，按照十二个月内完成返还一半学费算，这种干货满满的课程绝对超值。果断入坑从Data Analyst Nano Degree开始。
-Machine Learning课程评论下面有朋友说ML专项东西有点杂，更推荐DA，遂跑来看DA的内容，至今未交Project，只看到Intro2ML课程里面两个老师拿着红酒不知道在说些什么。课程内容小本本记下了，先刷课再来续费Project。
+Machine Learning课程评论下面有朋友说ML专项东西有点杂，更推荐DA，遂跑来看DA的内容.
 ---
+# Project总揽
+> 速度与质量如何二者兼得?
+
+
+---
+
 
 # 课程视频摘记
 
@@ -69,6 +75,33 @@ Machine Learning课程评论下面有朋友说ML专项东西有点杂，更推�
 
 ###### Data and Tables
 + Welcome to RDB-带我们学习后端工程师最重要的工具，课程五步走，概念上了解RDB里面数据的存储方式，基本SQL，Python接口进行操作，更多SQL，最终Project,ps，老师没说名字！！！
++ ?
+
+
+---
+
+#### SQL for Data Analysis
+###### Lesson 01: Data and Tables
++ Intro to SQL for Data Analysis-Carl introduces the tool for managing, origanizing and querying data. Relational Concepts, SQL queries, Advanced SQL.
++ What's a Database-Connect in memory data and durable storage(beyond flat files and deal with concurrencies and complex queries)
++ Quiz: Looking at Tables-Thinking about how different pieces of data relate to each other is at the heart of relational databases as a topic.
++ Quiz: Data Types and Meaning-same data may have different meanings
++ Quiz: Data Meanings-tanaka田中
++ Zoo-hahaha，一堆萌宠，铲屎官就是要数据管理工具才能做得好，去除重复劳动延伸人类能力
++ Anatomy of a Table-Table has name, header and body consisting of many rows
++ Quiz: Answering Questions from a Table-Table can be used for many questions. Misunderstood 'were any...'
++ Aggregations-Summerize multiple rows into a single rule, like count, avg, max, min, sum(some only applies to numerical data)
++ Quiz: Queries and Results-Reasons for store 1-n relation to multiple rows in a table and showed a typical query statement with a simple restriction followed by 'where'
++ How Queries Happen-Code talk with database via query and result..tcp/ip or local server. select 2+2, 4+8 as sum, colname2 works
++ Favorite Animals-Cutest? Vote for that
++ Related Tables-the vote method works like proto facebook! Now we have two tables, joins help with dealing with them
++ Uniqueness and Keys-identify a certain person, we need primary key, so many springfield, use zip code instead
++ Quiz: Primary Key-Choose unique keys, wrongly choose driver's license....
++ Joining Tables-Everything we get back is a table, select join on where
++ Quiz: Databases Concepts-map object to tables
++ Summary-Lots of concepts with structuring data with tables, extracting data from tables, counting rows as aggregation, linking tables using primary keys and joins, next time, SQL for practice
+
+###### 
 
 ---
 

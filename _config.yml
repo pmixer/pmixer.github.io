@@ -7,6 +7,8 @@ url: "http://talkwithme.cn"
 # twitter_username: none
 github_username:  peterhuang2015
 
+encoding: UTF-8
+
 # Build settings
 markdown: kramdown
 permalink: pretty
