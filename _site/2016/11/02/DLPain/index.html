@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>深度学习-工具之痛</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="">
+  <link rel="canonical" href="http://talkwithme.cn//2016/11/02/DLPain/">
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Peter Huang's Blog posts" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href=" /css/main.css ">
+  <!-- Bootstrap -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+crossorigin="anonymous">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80198254-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+</head>
+
+
+    <body>
+
+    <header class="site-header">
+
+  <div class="wrap">
+
+    <div style="float:left; margin-top:10px; margin-right:10px;">
+    <a href="http://cn.udacity.com" target="_blank"><!--"/feed.xml">-->
+      <img src="https://cn.udacity.com/assets/images/svgs/logo_wordmark.svg" width="100">
+    </a>
+    </div>
+
+    <a class="site-title" href="/">Peter Huang's Blog</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
+          <path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
+            h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
+            h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
+            c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+      <div class="trigger">
+        <a class="page-link" href="/blog">博客</a>
+        <a class="page-link" href="/841.html">841</a>
+        
+          <a class="page-link" href="/programmer/">编程小径</a>
+        
+          <a class="page-link" href="/UnionA/">优等生</a>
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrap">
+      <div class="post">
+
+  <header class="post-header">
+    <h1>深度学习-工具之痛</h1>
+    <p class="meta">Nov 2, 2016</p>
+  </header>
+
+  <article class="post-content">
+  <h2 id="section">前言</h2>
+
+<p>部分程序员掌握修电脑装系统的技能通常是由于手贱。。。</p>
+
+<p>编者笔记本和 Ubuntu 启动盘死磕上瘾一次启动24小时都进不去界面之后只能转战老旧的台式机了。。。顺手想装装系统捞几个工具库来用一搞就是一天～</p>
+
+<p>公号最近实在没别的可说的，就赶时髦来聊聊深度学习，主要吐槽工具包。</p>
+
+<p>当初像我这么肤浅的人竟误入了深度学习的坑，主要是想着这样的东西可以反过来帮助我们理解人脑为祖国的教育事业做贡献；naive，这种十八弯一样的思路把八杆子打不着的东西凑一起也是闹。</p>
+
+<p>有关神(shen)经(du)网(xue)络(xi)的英文资料一抓一大把了，可不吐不快，不写出来实在不知道自己知道点啥。</p>
+
+<p>程序运行的过程如同一场演出，观众与导演的角色截然不同；用户是前排看戏的，各种数据结构工具库加上杂七杂八的硬件是场上演出的，写程序的家伙们则是后台忙里忙外的，稍不留神就一个趔趄摔倒在地被一堆电缆缠的动弹不得，被 bug 咬地满头包。。。这种时候找个靠谱的工具包十分必要，如同普通青年小时候玩四驱车得把原件买来才行，空手造一个顶多捏个纸的。</p>
+
+<p>关于深度学习到底是个啥推荐各位阅读—__李宏毅：一天搞懂深度学习__，二百多页的 PPT 能让人看到这项技术的大概轮廓；由于坑多，相关主题在部分科研学者圈子里还会继续火下去。作为打工仔，编者最关心的是工具包的问题。</p>
+
+<p>别家的网络和工具拿来用如同套公式一样往 paper 里塞，胃容量小的我实在受不了这样填鸭，在去年的暑假尝试着用 C 写一套自己的工具自用，未果。。。一周后卡在 BP 部分上丢在 github 上作未完待续状，这种时候只好抱抱大腿先。</p>
+
+<p>一条咸鱼在各种工具包中翻滚过，到头来对它们的了解大概只有这么浅，烛火微光，防止朋友踩坑。。。以下工具包均可在网络上开放获取，特别鸣谢著名同性交友社区 Github 的代码托管支持。</p>
+
+<ul>
+  <li>Pybrain -Jürgen Schmidhuber 的学生在距今十年前就开始的项目，速度不(hen)快(man)，但里面的实现简捷漂亮，可以初学使用，并在小规模数据下进行网络验证与快速实验。</li>
+  <li>FANN - 当前年龄在十岁以上诞生自丹麦的神经网络工具包，使用 C 语言实现，可以方便移植，网络上可搜索到编译并将其嵌入到 IOS APP 的博文。</li>
+  <li>Matconvnet - vlfeat 工程组为广大 Matlab 死忠准备的 CNN 工具包，方便简单见效快。</li>
+  <li>Kaldi - 语音相关领域研究者青睐的专门工具包</li>
+  <li>CNTK - 微软深度学习框架，最近改了名字。</li>
+  <li>Theano - 蒙特利尔出产的使用广泛而历史也比较久的工具</li>
+  <li>Torch - 产自纽约大学，使用轻量化的 Lua 力求最大的灵活性，贴着 Facebook 的标签</li>
+  <li>Caffe - 某乎网红论文搞定剩下俩月没事干写出来的工具包，对于大数据量需要使用 GPU 加速训练深层网络的情况尤其合适，2014 年来广受欢迎</li>
+  <li>cuRRent - 简单易用语音相关神经网络工具包</li>
+  <li>Tensorflow - 黄金工程团队谷歌开源的内部机器学习系统</li>
+  <li>Keras - 套在 Theano 和 Tensorflow 外层上的很好用的壳</li>
+  <li>mxnet - 神秘组织 dmlc 产物，支持语言非常全</li>
+  <li>darknet - Little Pony 爱好者 Joseph 凭着本科时撸 ACM 的功力写的工具包，基本没什么工具依赖，相对那些大号工具包代码量小跑的很快，用起来只要一个可执行文件就好。</li>
+  <li>DIGITS - 核弹厂给 Caffe 加的一层壳</li>
+  <li>opencv - 今年的 Google Summer of Code 活动学生们决定为开发中的 opencv 版本继续完善神经网络相关的部分，之前的版本只有感知机可用</li>
+</ul>
+
+<p>讲真，被滥用的深度学习方法看起来简直是核弹厂老黄卖显卡、公司围攻傲娇研究团体、小年轻在老学究圈子里搏出位的必备出装。只想说，显卡是 AMD 或者 N 卡计算能力低于 2.0 的，机器固件和 Ubuntu 有仇的，只要是工具包都喜欢尝尝鲜用最新版的，入坑都要三思而后行。</p>
+
+<h2 id="xor-in-pybrain">XOR in Pybrain</h2>
+<p>开始接触一个工具总要有个 Hello World 一样的东西，当年感知机被指出的致命缺点就是无法学到 xor。</p>
+
+<p>要逼近亦或函数，在神经网络里加上隐层即可。</p>
+
+<p>豪杰解霸的作者当年招进去的一批员工发展最好的是个入职只会 C 语言的，花里胡哨的技术太多，太该紧跟潮流反而学不到真东西，或者说练不到内功。。用牺牲速度换取易用性的 Pybrain，我们可以快速构建一个简单网络并进行实验，参照官方文档对应代码如下。</p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">pybrain.tools.shortcuts</span> <span class="kn">import</span> <span class="n">buildNetwork</span>
+<span class="kn">from</span> <span class="nn">pybrain.structure</span> <span class="kn">import</span> <span class="n">SoftmaxLayer</span><span class="p">,</span> <span class="n">TanhLayer</span>
+<span class="kn">from</span> <span class="nn">pybrain.datasets</span> <span class="kn">import</span> <span class="n">SupervisedDataSet</span>
+<span class="kn">from</span> <span class="nn">pybrain.supervised.trainers</span> <span class="kn">import</span> <span class="n">BackpropTrainer</span>
+
+<span class="n">net</span> <span class="o">=</span> <span class="n">buildNetwork</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">hiddenclass</span><span class="o">=</span><span class="n">TanhLayer</span><span class="p">,</span> <span class="n">outclass</span><span class="o">=</span><span class="n">SoftmaxLayer</span><span class="p">)</span>
+
+<span class="n">ds</span> <span class="o">=</span> <span class="n">SupervisedDataSet</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">ds</span><span class="o">.</span><span class="n">addSample</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="p">(</span><span class="mi">0</span><span class="p">))</span>
+<span class="n">ds</span><span class="o">.</span><span class="n">addSample</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">))</span>
+<span class="n">ds</span><span class="o">.</span><span class="n">addSample</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">))</span>
+<span class="n">ds</span><span class="o">.</span><span class="n">addSample</span><span class="p">((</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="p">(</span><span class="mi">0</span><span class="p">))</span>
+
+<span class="n">trainer</span> <span class="o">=</span> <span class="n">BackpropTrainer</span><span class="p">(</span><span class="n">net</span><span class="p">,</span> <span class="n">ds</span><span class="p">)</span>
+<span class="n">trainer</span><span class="o">.</span><span class="n">trainUntilConvergence</span><span class="p">()</span>
+
+<span class="n">net</span><span class="o">.</span><span class="n">activiate</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">])</span>
+</code></pre>
+</div>
+
+<p>要具体查看网络结构以及数据内容，可以使用库自带的接口</p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="n">net</span><span class="p">[</span><span class="s">"in"</span><span class="p">]</span>
+<span class="n">net</span><span class="p">[</span><span class="s">"hidden0"</span><span class="p">]</span>
+<span class="n">net</span><span class="p">[</span><span class="s">"out"</span><span class="p">]</span>
+
+<span class="n">net</span><span class="o">.</span><span class="n">activate</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">])</span>
+
+<span class="n">ds</span><span class="p">[</span><span class="s">"input"</span><span class="p">]</span>
+<span class="n">ds</span><span class="p">[</span><span class="s">"target"</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="nb">input</span><span class="p">,</span> <span class="n">target</span> <span class="ow">in</span> <span class="n">ds</span><span class="p">:</span>
+    <span class="k">print</span> <span class="nb">input</span><span class="p">,</span> <span class="n">target</span>
+</code></pre>
+</div>
+
+<p>这里我们讲 XOR 作为一个简单而具有代表性的思维模型，用神经网络进行拟合，把离散的问题归入连续函数模型当中，利用给出样本进行逼近，试了试这条路是不是走的通。微信发代码技能 get!下节，我们从一个填空题的角度来看这些代码处理的对象是个什么鬼。。</p>
+
+  </article>
+
+  <!-- mathjax -->
+  
+  
+  
+  
+  <!-- disqus comments -->
+  <!--
+ 
+  
+</div>
+
+-->
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrap">
+
+    <!-- <h2 class="footer-heading">Peter Huang's Blog</h2> -->
+
+    <div class="footer-col-1 column">
+      <ul>
+        <li>Peter Huang's Blog</li>
+        <!-- <li><a href="mailto:"></a></li> -->
+      </ul>
+    </div>
+
+    <div class="footer-col-2 column">
+      <ul>
+        <li>
+          <a href="https://github.com/peterhuang2015">
+            <span class="icon github">
+              <svg version="1.1" class="github-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+                <path fill-rule="evenodd" clip-rule="evenodd" fill="#C2C2C2" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761
+                c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32
+                c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472
+                c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037
+                C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65
+                c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261
+                c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082
+                c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129
+                c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+              </svg>
+            </span>
+            <span class="username">peterhuang2015</span>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+
+    <div class="footer-col-3 column">
+      <p class="text"><a href="http://www.easycounter.com/"><img src="http://www.easycounter.com/counter.php?dreaming_hz" border="0" alt="HTML Hit Counter"></a> since 2016</p>
+    </div>
+
+  </div>
+
+</footer>
+
+
+    </body>
+</html>

@@ -2,17 +2,15 @@
 layout: default
 ---
 
-<div class="home">
-  
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <br>
-        {{ post.excerpt }}
-      </li>
-    {% endfor %}
-  </ul>
-
-</div>
+	<div class="container">
+	  <div class="avatar">
+		<img class="img-circle" src="{{ site.baseurl }}assets/{{ site.avatar }}" alt="Responsive image">
+	  </div>
+	  <h4>我是 <strong>{{ site.author }}</strong>, 国内 CS 硕士在读, CV 方向.</h4>
+	  <h4>被计算机奥秘吸引, 在这个专业摸爬滚打经过了五个年头...</h4>
+		<h4>发现坑远比想象中的大 (┙>∧<)┙.</h4>
+	  <h4>作为在线学习的重度使用者, 常年混迹于各大平台</h4>
+		<h4>为了跨过线上线下之间的鸿沟, 我加入了优达学生俱乐部.</h4>
+	  <h4>作为 Cooperative Learning 的铁粉, 我通过<a href="http://www.talkwithme.cn/">博客</a>, <a href="http://forum.talkwithme.cn/" target="_blank">论坛</a>, <a href="http://mp.weixin.qq.com/s?src=3&timestamp=1480506380&ver=1&signature=kGLgEPpE3M1YQ-z7sRwzTeQr-h8rdkmZ1Ab9mWDU7REceFS7nhnSIOq79rL29-zN42oFWIcaVUNjvjBV83mo2uMr2LVQqgvMBlRJAw0ddk0VV03jETLGKucMSS-v2N4yRIw2FYxB*7fTAXwMsuEhplPgw1nL8MhBzgpg48PCtgc=" target="_blank">公众号</a>寻找朋友.</h4>
+		<h4>业余时间喜欢打篮球, 读书, 爱好远行但实际比较宅</h4>
+	</div>

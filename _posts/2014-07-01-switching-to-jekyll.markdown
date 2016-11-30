@@ -8,7 +8,9 @@ date:   2014-07-01 20:00:00
 > I forked the template from Andrej Karpathy, and this post explains why Jekyll is favorable for bloggers.
 
 Inspired by [Mark Reid's](https://twitter.com/mdreid) blog post [Switching from Jekyll to Hakyll](http://mark.reid.name/blog/switching-to-hakyll.html) I decided to abandon Wordpress and give Jekyll a try (note, I currently do not yet feel pro enough to switch to Haskell-based Hakyll). I can confidently say that I could not be happier about this decision.
-
+$$
+\frac{1}{2}
+$$
 ### Wordpress Monster
 
 *"So what's wrong with Wordpress?"* You may ask. Let's see, everything:
