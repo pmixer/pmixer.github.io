@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 mathjax: true
 comments: true
@@ -22,4 +22,4 @@ VR、无人驾驶、机器学习等热门课程学习社群招募
 *	每月至少参加一次线下交流会，与各类大牛面对面
 ```
 
-<center><img src="/assets/wo.jpg" width="50%" alt="QR"/></center>
+<center><img src="/assets/wo.jpg" width="33%" alt="QR"/><img src="/assets/fend.jpg" width="33%" alt="QR"/></center>
