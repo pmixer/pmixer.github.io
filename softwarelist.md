@@ -20,7 +20,7 @@ permalink: /softwareRecommendations/
 
 + 如果是做一个编者这样简单站点的话用 github 进行 jeklly 托管就足够啦，最简单直接 fork 我这个项目跟着官方教程部署就 ok，ruby 大法好~
 
-#### 文字编辑：
+##### 文字编辑：
 
 ---
 
