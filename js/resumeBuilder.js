@@ -6,11 +6,11 @@ var bio = {
   name: "Peter Huang",
   role: "Graduate Student",
   contacts: {
-    Mobile: "+861861142****",
-    Email: "dreaming_hz(at)hotmail(dot)com",
-    Github: "PeterHuang2015", //"<a href=\"https://github.com/peterhuang2015/\">PeterHuang2015</a>",
-    Location: "Beijing, China",
-    Blog: "www.talkwithme.cn"
+    mobile: "+861861142****",
+    email: "dreaming_hz(at)hotmail(dot)com",
+    github: "PeterHuang2015", //"<a href=\"https://github.com/peterhuang2015/\">PeterHuang2015</a>",
+    location: "Beijing, China",
+    blog: "www.talkwithme.cn"
   },
   welcomeMessage: "The Education Hacker",
   skills: [
@@ -39,25 +39,88 @@ var education = {
     ],
     dates: "2015-2018",
     url: "http://www.bit.edu.cn"
+  }, {
+    name: "Udacity.Inc",
+    location: "Online",
+    degree: "Front-end Developer Nanodegree",
+    majors: [
+      "Front-end Development"
+    ],
+    dates: "April 2016-Febuary 2017",
+    url: "http://www.udacity.com"
   }],
   courses: [{
     title: "Computer Vision",
     school: "Georgia Institute of Technology",
     location: "Online",
-    dates: "2015-2016",
+    dates: "In Progress",
     url: "http://www.udacity.com"
   }, {
     title: "Machine Learning",
     school: "Georgia Institute of Technology",
     location: "Online",
-    dates: "2015-2016",
+    dates: "In Progress",
     url: "http://www.udacity.com"
   }, {
+    title: "Data Structure",
+    school: "Tsinghua University",
+    location: "Online",
+    dates: "2015.03.03 ～ 2015.07.10",
+    url: ""
+  }, {
+    title: "Introduction to Programming with MATLAB",
+    school: "Vanderbilt University",
+    location: "Online",
+    dates: "September 10, 2015",
+    url: "https://www.coursera.org/learn/matlab"
+  }, {
+    title: "Java Programming",
+    school: "Peking University",
+    location: "Online",
+    dates: "August 18, 2015",
+    url: "https://www.coursera.org/learn/java-chengxu-sheji"
+  }, {
+    title: "Introduction to Mathematical Thinking",
+    school: "Stanford University",
+    location: "Online",
+    dates: "April 30, 2015",
+    url: "https://www.coursera.org/course/maththink"
+  }, {
+    title: "6.00.1x: Introduction to Computer Science and Programming Using Python",
+    school: "Massachusetts Institute of Technology",
+    location: "Online",
+    dates: "2015.01.25 ～ 2015.04.22",
+    url: "http://www.xuetangx.com/courses/MITx/6_00_1x/2014_T2/about"
+  }, {
+    title: "Learning How to Learn: Powerful mental tools to help you master tough subjects",
+    school: "University of California, San Diego",
+    location: "Online",
+    dates: "March, 2015",
+    url: "https://www.coursera.org/course/learning"
+  }, {
+    title: "Image and video processing: From Mars to Hollywood with a stop at the hospital",
+    school: "Duke University",
+    location: "Online",
+    dates: "March 22, 2015",
+    url: "https://www.coursera.org/learn/image-processing"
+  }, {
+    title: "Model Thinking",
+    school: "University of Michigan",
+    location: "Online",
+    dates: "March 23, 2015",
+    url: "https://www.coursera.org/"
+  }, {
     title: "Machine Learning",
-    school: "Coursera",
+    school: "Stanford University",
     location: "Online",
     dates: "September 2014-December 2014",
     url: "https://www.coursera.org/learn/machine-learning/"
+  }, {
+    title: "Web Application Development: Basic Concepts",
+    school: "The University of New Mexico",
+    location: "Online",
+    dates: "August 2014",
+    url: "https://www.coursera.org/learn/web-app"
   }, {
     title: "",
     school: "",
@@ -69,6 +132,12 @@ var education = {
 
 var work = {
   jobs: [{
+    employer: "Udacity",
+    title: "Intern",
+    location: "Remote",
+    dates: "December 2016-In Progress",
+    description: "Help managing Front-end Developer Nanodegree study groups."
+  },{
     employer: "Udacity",
     title: "Translator",
     location: "Remote",
@@ -103,12 +172,14 @@ var work = {
 
 var projects = {
   projects: [{
-    title: "Navie Tracker",
+    title: "Naive Tracker",
     url: "https://github.com/PeterHuang2015/NaiveTracker",
     dates: "2015",
-    description: "A simple visual tracker",
+    description: "Implement a simple visual tracker based on template matching technique by opencv to analysis the difficulty of visual tracking task. Updated the tracker to be compatible with vot challenge toolkit in 2017.",
     images: [
-      "http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Basketball.png"
+      "http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Basketball.png",
+      "http://www.votchallenge.net/img/vot2017_logo_website_large.png"
+
     ]
   }],
 };
@@ -125,11 +196,11 @@ bio.display = function() {
   HTMLheaderName = HTMLheaderName.replace(data, bio.name);
   HTMLheaderRole = HTMLheaderRole.replace(data, bio.role);
 
-  HTMLmobile = HTMLmobile.replace(data, bio.contacts.Mobile);
-  HTMLemail = HTMLemail.replace(data, bio.contacts.Email);
-  HTMLgithub = HTMLgithub.replace(data, bio.contacts.Github);
-  HTMLlocation = HTMLlocation.replace(data, bio.contacts.Location);
-  HTMLblog = HTMLblog.replace(data, bio.contacts.Blog);
+  HTMLmobile = HTMLmobile.replace(data, bio.contacts.mobile);
+  HTMLemail = HTMLemail.replace(data, bio.contacts.email);
+  HTMLgithub = HTMLgithub.replace(data, bio.contacts.github);
+  HTMLlocation = HTMLlocation.replace(data, bio.contacts.location);
+  HTMLblog = HTMLblog.replace(data, bio.contacts.blog);
 
   HTMLbioPic = HTMLbioPic.replace(data, bio.biopic);
 
@@ -143,15 +214,6 @@ bio.display = function() {
   $('#topContacts, #footerContacts').append(HTMLgithub);
   $('#topContacts, #footerContacts').append(HTMLlocation);
   $('#topContacts, #footerContacts').append(HTMLblog);
-
-  /*
-  //D R Y
-      $('#footerContacts').append(HTMLmobile);
-      $('#footerContacts').append(HTMLemail);
-      $('#footerContacts').append(HTMLgithub);
-      $('#footerContacts').append(HTMLlocation);
-      $('#footerContacts').append(HTMLblog);
-  */
 
   $('#header').append(HTMLbioPic);
   $('#header').append(HTMLwelcomeMsg);
