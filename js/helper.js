@@ -103,6 +103,12 @@ Start here! initializeMap() is called when page is loaded.
 */
 function initializeMap() {
 
+  /*
+  For the map to be displayed, the googleMap var must be
+  appended to #mapDiv in resumeBuilder.js.
+  */
+  map = new google.maps.Map(document.querySelector('#map'), mapOptions);
+  
   console.log("Called");
 
   var locations;
@@ -110,13 +116,6 @@ function initializeMap() {
   var mapOptions = {
     disableDefaultUI: true
   };
-
-  /*
-  For the map to be displayed, the googleMap var must be
-  appended to #mapDiv in resumeBuilder.js.
-  */
-  map = new google.maps.Map(document.querySelector('#map'), mapOptions);
-
 
   /*
   locationFinder() returns an array of every location string from the JSONs
@@ -135,7 +134,7 @@ function initializeMap() {
     });
 
     console.log(locations);
-    locations = ["Xi'an", "Beijing"]
+    locations = ["Xi'an, China", "Beijing, China"]
     return locations;
   }
 
@@ -235,7 +234,7 @@ marker.setAnimation(google.maps.Animation.BOUNCE, 500);
 }
 
 // Calls the initializeMap() function when the page loads
-window.addEventListener('load', initializeMap);
+// window.addEventListener('load', initializeMap);
 
 // Vanilla JS way to listen for resizing of the window
 // and adjust map bounds

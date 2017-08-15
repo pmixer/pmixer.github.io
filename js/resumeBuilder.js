@@ -48,6 +48,15 @@ var education = {
     ],
     dates: "April 2016-Febuary 2017",
     url: "http://www.udacity.com"
+  }, {
+    name: "Udacity.Inc",
+    location: "Online",
+    degree: "Machine Learning Engineer Nanodegree",
+    majors: [
+      "Machine Learning"
+    ],
+    dates: "May 2017-now",
+    url: "http://www.udacity.com"
   }],
   courses: [{
     title: "Computer Vision",
@@ -121,13 +130,15 @@ var education = {
     location: "Online",
     dates: "August 2014",
     url: "https://www.coursera.org/learn/web-app"
-  }, {
-    title: "",
-    school: "",
-    location: "",
-    dates: "",
-    url: ""
-  }]
+  }
+  // , {
+  //   title: "",
+  //   school: "",
+  //   location: "",
+  //   dates: "",
+  //   url: ""
+  // }
+]
 };
 
 var work = {
@@ -181,7 +192,49 @@ var projects = {
       "http://www.votchallenge.net/img/vot2017_logo_website_large.png"
 
     ]
-  }],
+  }, {
+    title: "Image Forensic Detector",
+    url: "",
+    dates: "2016",
+    description: "Reimplement the sift based copy-move forgery detection algorithm using C++ and built the graphical user interface using Qt. Reimplemented the hierarchical clustering built-in MATLAB with help of STL.",
+    images: [
+      "http://www.lambertoballan.net/wp-content/uploads/2013/03/copymove-300x207.png"
+    ]
+  }, {
+      title: "Subtitle-Chopstick",
+      url: "https://github.com/PeterHuang2015/subtitle-chopstick",
+      dates: "2017",
+      description: "Tiny Chrome extension to help downloading vtt files for translation team at Udacity.",
+      images: [
+        "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1502809616649&di=75485a7df5828db7ace5bdf9d16ca31d&imgtype=0&src=http%3A%2F%2Fwww.bjsxt.cn%2Fueditor%2Fphp%2Fupload%2Fimage%2F20170718%2F1500362279637946.png"
+      ]
+    }, {
+      title: "SimpleNet",
+      url: "https://github.com/PeterHuang2015/SimpleNet",
+      dates: "2017",
+      description: "Used vanilla C programming language to code up the feed forward fully connected neural network model for mnist classification task with data obtained from Kaggle.",
+      images: [
+        "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1502809760665&di=2e81f6305cbc0a4debd2a2e070189626&imgtype=0&src=http%3A%2F%2Fimages.cnitblog.com%2Fblog%2F320121%2F201505%2F131659018292396.png"
+      ]
+    }, {
+      title: "VOT_BIB",
+      url: "https://github.com/PeterHuang2015/VOT_BIB",
+      dates: "2017",
+      description: "Small tool to help organizing bibliography concerning visual object tracking algorithms.",
+      images: [
+        "https://tse4-mm.cn.bing.net/th?id=OIP.D94Vh_4PXfxcv5iOS6hgcgEsB5&p=0&pid=1.1"
+      ]
+    }]
+
+  // , {
+  //   title: "",
+  //   url: "",
+  //   dates: "201",
+  //   description: ".",
+  //   images: [
+  //     "http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Basketball.png"
+  //   ]
+  // }
 };
 
 // Contests and competitions
