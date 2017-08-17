@@ -14,7 +14,7 @@ var bio = {
   },
   welcomeMessage: "The Education Hacker",
   skills: [
-    "Promgramming Languages: C, C++, Java, Javascript",
+    "Programming Languages: C, C++, Java, Javascript",
     "Toolkits: CUDA, Caffe, Tensorflow, Chrome"
   ],
   biopic: "http://www.talkwithme.cn/assets/me.jpg",
@@ -238,8 +238,14 @@ var projects = {
 };
 
 // Contests and competitions
-var miscellaneous = {
-
+var playgrounds = {
+item:[
+  {
+    title: "CodeHunt",
+    url: "https://www.codehunt.com/",
+    description: "A fun place to practice programming by Code&Guess :)"
+  }
+]
 };
 
 var data = "%data%";
@@ -355,6 +361,17 @@ education.display = function() {
 
 }
 
+playgrounds.display = function(){
+  $('#playground').append(HTMLplayGroundStart);
+  var pgs = playgrounds.item;
+  for (var pIndex = 0; pIndex < pgs.length; pIndex++) {
+    pt = HTMLplayGroundTitle.replace(data, pgs[pIndex].title);
+    pt = pt.replace("#", pgs[pIndex].url);
+    pd = HTMLplayGroundDescription.replace(data, pgs[pIndex].description);
+    $('.playground-entry:last').append(pt+pd);
+  }
+}
+
 function addGMap() {
   $("#mapDiv").append(googleMap);
   $("#mapDiv").append(map);
@@ -367,7 +384,7 @@ function constructResume() {
   work.display();
   projects.display();
   education.display();
-
+  playgrounds.display();
   addGMap();
   initializeMap();
 }

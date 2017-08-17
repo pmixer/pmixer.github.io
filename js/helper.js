@@ -7,9 +7,7 @@ Don't worry, you'll learn what's going on in this file throughout the course. Yo
 Cameron Pittman
 */
 
-
 /*
-These are HTML strings. As part of the course, you'll be using JavaScript functions
 replace the %data% placeholder text you see in them.
 */
 var HTMLheaderName = '<h1 id="name">%data%</h1>';
@@ -54,7 +52,10 @@ var HTMLcourseTitle = '<br/><a href="#">%data%';
 var HTMLcourseSchool = ' - %data%</a>';
 var HTMLcourseDates = '<div class="date-text">%data%</div>';
 var HTMLcourseLocation = '<div class="location-text">%data%</div>';
-// var HTMLcourseURL = '<br><a href="#">%data%</a>';
+
+var HTMLplayGroundStart = '<div class="playground-entry"></div>';
+var HTMLplayGroundTitle = '<a class = "last-a" href="#">%data%</a>';
+var HTMLplayGroundDescription = ' -- %data%';
 
 var internationalizeButton = '<button>Internationalize</button>';
 var googleMap = '<div id="map"></div>';
@@ -108,7 +109,7 @@ function initializeMap() {
   appended to #mapDiv in resumeBuilder.js.
   */
   map = new google.maps.Map(document.querySelector('#map'), mapOptions);
-  
+
   console.log("Called");
 
   var locations;
