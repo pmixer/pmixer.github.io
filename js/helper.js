@@ -48,14 +48,14 @@ var HTMLschoolLocation = '<div class="location-text">%data%</div>';
 var HTMLschoolMajor = '<em><br>Major: %data%</em>';
 
 var HTMLcourseStart = '<div class="education-entry"></div>';
-var HTMLcourseTitle = '<br/><a href="#">%data%';
+var HTMLcourseTitle = '<a href="#">%data%';
 var HTMLcourseSchool = ' - %data%</a>';
 var HTMLcourseDates = '<div class="date-text">%data%</div>';
-var HTMLcourseLocation = '<div class="location-text">%data%</div>';
+var HTMLcourseLocation = '<div class="location-text">%data%</div><br>';
 
 var HTMLplayGroundStart = '<div class="playground-entry"></div>';
 var HTMLplayGroundTitle = '<a class = "last-a" href="#">%data%</a>';
-var HTMLplayGroundDescription = ' -- %data%';
+var HTMLplayGroundDescription = ' -- %data%<br>';
 
 var internationalizeButton = '<button>Internationalize</button>';
 var googleMap = '<div id="map"></div>';

@@ -244,7 +244,30 @@ item:[
     title: "CodeHunt",
     url: "https://www.codehunt.com/",
     description: "A fun place to practice programming by Code&Guess :)"
+  }, {
+    title: "HiHoCoder",
+    url: "http://hihocoder.com/",
+    description: "Practiced programming on this online judge sometimes"
+  }, {
+    title: "THU OJ",
+    url: "https://dsa.cs.tsinghua.edu.cn/oj/",
+    description: "Where I registered to work for opportuniy for CS department problem sets in Tsinghua"
+  }, {
+    title: "ITMOx",
+    url: "https://www.edx.org/course/how-win-coding-competitions-secrets-itmox-i2cpx-0",
+    description: "Visit ITMO online to see champion secrets"
+  }, {
+    title: "Python Challenge",
+    url: "http://www.pythonchallenge.com/",
+    description: "Sovling the puzzle and learn python at the same time"
   }
+
+  // , {
+  //   title: "",
+  //   url: "",
+  //   description: ""
+  // }
+
 ]
 };
 
@@ -344,7 +367,7 @@ education.display = function() {
   $('.education-entry').append(eduSection);
 
   // Online courses
-  $('#education').append(HTMLcourseStart);
+  // $('#education').append(HTMLcourseStart);
 
   var courseList = education.courses;
   for (var cIndex = 0; cIndex < courseList.length; cIndex++) {
