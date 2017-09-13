@@ -57,7 +57,7 @@ var white_board = new Vue({
   methods: {
     disp_msg: function() {
       var cn = parseInt(this.class_num);
-      var y = (cn > 31)?2018:2017;
+      var y = (cn >= 31)?2018:2017;
       var m = expected_grd_days[cn-1][0];
       var d = expected_grd_days[cn-1][1];
       var date = new Date();
