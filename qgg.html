@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+<body>
+
+<div id="white_board">
+  <input v-model="class_num"></input>
+  <button v-on:click="disp_msg">获取群公告</button>
+  <p>{{ broadcast }}</p>
+</div>
+
+<script type="text/javascript">
+
+String.prototype.format = function(args) {
+    var result = this;
+    if (arguments.length > 0) {
+        if (arguments.length == 1 && typeof (args) == "object") {
+            for (var key in args) {
+                if(args[key]!=undefined){
+                    var reg = new RegExp("({" + key + "})", "g");
+                    result = result.replace(reg, args[key]);
+                }
+            }
+        }
+        else {
+            for (var i = 0; i < arguments.length; i++) {
+                if (arguments[i] != undefined) {
+                    //var reg = new RegExp("({[" + i + "]})", "g");//这个在索引大于9时会有问题，谢谢何以笙箫的指出
+
+　　　　　　　　　　　　var reg= new RegExp("({)" + i + "(})", "g");
+                    result = result.replace(reg, arguments[i]);
+                }
+            }
+        }
+    }
+    return result;
+}
+
+var broadcast_template = "今天是{y}年{m}月{d}日，距离目标毕业时间({gy}.{gm}.{gd})还有{day_left}天，大家有任何学习问题都请发在群里，助教以及学习进度快的同学会协助解决，\
+  有好的学习资料或资讯也请分享到群里，下面请班级助教通过群公告发布大家的学习进度表以及本周一对一预约地址或公开课安排（小提示：\
+  1, 我们的班级学员和助教在平日都有各自的工作和学习活动，群里可能比较静，so，这种时候也不要害羞~有问题和分享请直接发送群内(*^_^*)\
+  另外非常建议各位有看到优质学习材料通过班级群共享给大家，便于问题留档可以发送到官方论坛里并将问题链接发送到班级群内，地址：https://discussions.youdaxue.com/。\
+  2，已经毕业的学员麻烦打印毕业证书并发送给班级助教（微信发送即可），我们需要统计学员毕业情况并安排已达到目标毕业时间的班级结业，暂未达到目标毕业率的班级还不能进行结业，助教会继续在班内辅助各位达成学习目标，加油！\
+  3，各位每月记得写下笔记，内容长度不限，非常 freestyle，需要投稿 demo 的话请戳 https://zhuanlan.zhihu.com/youdanote，稿件链接可以先发给班级助教。\
+  ";
+var expected_grd_days = [[10,29],[10,29],[9,25],[10,29],[10,2],[11,12],[10,14],[10,10],[10,10],[10,11],[9,18],[9,18],[9,18],[11,22],[11,22],[11,22],[10,25],[10,25],[11,26],[12,3],[12,10],[11,9],[11,9],[11,9],[11,9],[12,14],[12,14],[12,14],[12,17],[12,17],[1,21]]
+
+var white_board = new Vue({
+  el: '#white_board',
+  data: {
+    class_num: '0',
+    broadcast: '请检查班号是否正确'
+  },
+  methods: {
+    disp_msg: function() {
+      var cn = parseInt(this.class_num);
+      var y = (cn > 31)?2018:2017;
+      var m = expected_grd_days[cn-1][0];
+      var d = expected_grd_days[cn-1][1];
+      var date = new Date();
+      var today = date.toLocaleDateString().split('/');
+      if (cn > 0&&cn < 32){
+        var expected_grd_day = new Date(y, expected_grd_days[cn-1][0]-1, expected_grd_days[cn-1][1]);
+        console.log(expected_grd_day.getDate());
+        console.log(date.getTime());
+        var day_left = parseInt((expected_grd_day.getTime() - date.getTime())/(1000*60*60*24));
+        var msg = broadcast_template.format({y:today[0], m:today[1], d:today[2], gy:y,gm:m,gd:d,day_left:day_left});
+        this.broadcast = msg;
+      }
+    }
+  }
+})
+
+</script>
+
+</body>
+
+</html>
