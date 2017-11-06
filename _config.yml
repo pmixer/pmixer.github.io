@@ -1,12 +1,12 @@
 # Site settings
-title: Peter Huang's Blog
+title: 杂鱼记事
 # email:
 # description: ""
 baseurl: ""
 timezone: Asia/Shanghai
 url: "http://talkwithme.cn/"
 # twitter_username: none
-github_username:  peterhuang2015
+github_username:  PeterHuang2015
 
 encoding: UTF-8
 

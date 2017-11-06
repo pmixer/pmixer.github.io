@@ -14,11 +14,11 @@ layout: default
 
   <!-- mathjax -->
   {% if page.mathjax %}
-  <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script type="text/javascript" src="https://cdn.bootcss.com/mathjax/2.7.2/latest.js"></script>
   {% endif %}
-  
-  
-  
+
+
+
   <!-- disqus comments -->
   <!--
  {% if page.comments %}
@@ -31,16 +31,16 @@ layout: default
     var disqus_config = 'talkwithmecn';
     (function() {  // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
-        
+
         s.src = '//talkwithmecn.disqus.com/embed.js';
-        
+
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
   {% endif %}
-  
+
 </div>
 
 -->

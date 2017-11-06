@@ -2,10 +2,10 @@
 layout: post
 comments: true
 title:  "Switching Blog from Wordpress to Jekyll"
-excerpt: "I can't believe I lasted this long on Wordpress. I am switching permanently to Jekyll for hosting my blog, and so should you :) Details inside."
+excerpt: "Andrej can't believe he lasted this long on Wordpress. He is switching permanently to Jekyll for hosting his blog, and so should you :) Details inside."
 date:   2014-07-01 20:00:00
 ---
-> I forked the template from Andrej Karpathy, and this post explains why Jekyll is favorable for bloggers.
+> I forked the template from Andrej Karpathy, and this post explains why Jekyll is favorable for bloggers written by Andrej.
 
 Inspired by [Mark Reid's](https://twitter.com/mdreid) blog post [Switching from Jekyll to Hakyll](http://mark.reid.name/blog/switching-to-hakyll.html) I decided to abandon Wordpress and give Jekyll a try (note, I currently do not yet feel pro enough to switch to Haskell-based Hakyll). I can confidently say that I could not be happier about this decision.
 $$
@@ -74,4 +74,3 @@ $ git push
 After the last command, Github will see that my repo has changed and automatically refreshes [karpathy.github.io](http://karpathy.github.io/) to point to the newly generated `_site`. My post is live!
 
 Anyway, that's just a brief taste. Check out [Jekyll](http://jekyllrb.com/) and get blogging in a sane way!
-
