@@ -8,14 +8,17 @@ var bio = {
   contacts: {
     mobile: "+861861142****",
     email: "dreaming_hz(at)hotmail(dot)com",
-    github: "PeterHuang2015", //"<a href=\"https://github.com/peterhuang2015/\">PeterHuang2015</a>",
+    github: "<a href=\"https://github.com/peterhuang2015/\" class=\"last-a\">PeterHuang2015</a>",
     location: "Beijing, China",
     blog: "www.talkwithme.cn"
   },
   welcomeMessage: "The Education Hacker",
   skills: [
-    "Programming Languages: C, C++, Java, Javascript",
-    "Toolkits: CUDA, Caffe, Tensorflow, Chrome"
+    "Programming Languages:       C, C++, Python, Javascript, Java",
+    "Toolkits:                    CUDA, Caffe, Tensorflow, Chrome",
+    "For Human Resource Managers: This is a responsible, creative man with essential skills.",
+    "For Technical Leaders:       This is the one who is willing to share, learn and contribute.",
+    "For Operational Mangers:     This is the one with productivity, communication skills and empathy."
   ],
   biopic: "http://www.talkwithme.cn/assets/me.jpg",
 };
@@ -39,6 +42,15 @@ var education = {
     ],
     dates: "2015-2018",
     url: "http://www.bit.edu.cn"
+  }, {
+    name: "Georgia Institute of Technology",
+    location: "Online",
+    degree: "MSc in Computer Science",
+    majors: [
+      "Computational Perception & Robotics"
+    ],
+    dates: "2017-In Progress",
+    url: "http://www.omscs.gatech.edu"
   }, {
     name: "Udacity.Inc",
     location: "Online",
@@ -206,13 +218,13 @@ var projects = {
       dates: "2017",
       description: "Tiny Chrome extension to help downloading vtt files for translation team at Udacity.",
       images: [
-        "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1502809616649&di=75485a7df5828db7ace5bdf9d16ca31d&imgtype=0&src=http%3A%2F%2Fwww.bjsxt.cn%2Fueditor%2Fphp%2Fupload%2Fimage%2F20170718%2F1500362279637946.png"
+        "https://ssl.gstatic.com/chrome/webstore/images/sprites/common-64d82d8bc25b46502043dc430960d017.png"
       ]
     }, {
       title: "SimpleNet",
       url: "https://github.com/PeterHuang2015/SimpleNet",
       dates: "2017",
-      description: "Used vanilla C programming language to code up the feed forward fully connected neural network model for mnist classification task with data obtained from Kaggle.",
+      description: "Used vanilla C programming language to code up the feed forward fully connected neural network model for mnist classification task with data obtained from Kaggle, also video tutorials at <a href=\"https://space.bilibili.com/#/channel/detail?cid=6432\" class = \"last-a\">here</a>.",
       images: [
         "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1502809760665&di=2e81f6305cbc0a4debd2a2e070189626&imgtype=0&src=http%3A%2F%2Fimages.cnitblog.com%2Fblog%2F320121%2F201505%2F131659018292396.png"
       ]
@@ -224,7 +236,24 @@ var projects = {
       images: [
         "https://tse4-mm.cn.bing.net/th?id=OIP.D94Vh_4PXfxcv5iOS6hgcgEsB5&p=0&pid=1.1"
       ]
-    }]
+    }, {
+        title: "Computer Vision Course(Fall 2017)@Gatech",
+        url: "https://classroom.udacity.com/courses/ud810",
+        dates: "2017",
+        description: "It's part of my online MSc in Computer Science Degree coursework in which we get hands dirty with object detection, <a href=\"https://www.youtube.com/watch?v=S5Z6Avo_aVs&feature=youtu.be\" class = \"last-a\">augmented reality</a>, optical flow, visual tracking and face detection .etc",
+        images: [
+          "http://www.talkwithme.cn/assets/cvp5.png"
+        ]
+      }, {
+          title: "Artificial Intelligence Course(Fall 2017)@Gatech",
+          url: "https://classroom.udacity.com/courses/ud954",
+          dates: "2017",
+          description: "It's part of my online MSc in Computer Science Degree coursework in which we get hands dirty with Minimax with Alpha-Beta pruning, A* search, Bayes Network, Decision Tree, AdaBoost .etc",
+          images: [
+            "http://www.talkwithme.cn/assets/aia2.png"
+          ]
+        }
+    ]
 
   // , {
   //   title: "",
@@ -244,14 +273,16 @@ item:[
     title: "CodeHunt",
     url: "https://www.codehunt.com/",
     description: "A fun place to practice programming by Code&Guess :)"
-  }, {
-    title: "HiHoCoder",
-    url: "http://hihocoder.com/",
-    description: "Practiced programming on this online judge sometimes"
-  }, {
+  },
+  // , {
+  //   title: "HiHoCoder",
+  //   url: "http://hihocoder.com/",
+  //   description: "Practiced programming on this online judge sometimes"
+  // }
+ {
     title: "THU OJ",
     url: "https://dsa.cs.tsinghua.edu.cn/oj/",
-    description: "Where I registered to work for opportuniy for CS department problem sets in Tsinghua"
+    description: "Where I registered in MOOC and finally enrolled in CS department problem sets in Tsinghua"
   }, {
     title: "ITMOx",
     url: "https://www.edx.org/course/how-win-coding-competitions-secrets-itmox-i2cpx-0",
@@ -260,6 +291,10 @@ item:[
     title: "Python Challenge",
     url: "http://www.pythonchallenge.com/",
     description: "Sovling the puzzle and learn python at the same time"
+  }, {
+    title: "TAAI 2017",
+    url: "https://www.csie.ntu.edu.tw/~taai2017/",
+    description: "In which I registered, published one short paper with my own efforts and learned a lot."
   }
 
   // , {
@@ -326,7 +361,7 @@ work.display = function() {
 projects.display = function() {
   $('#projects').append(HTMLprojectStart);
 
-  for (var pIndex = 0; pIndex < projects.projects.length; pIndex++) {
+  for (var pIndex = projects.projects.length - 1; pIndex >= 0 ; pIndex--) {
     pt = HTMLprojectTitle.replace(data, projects.projects[pIndex].title);
     pt = pt.replace("#", projects.projects[pIndex].url);
     pd = HTMLprojectDates.replace(data, projects.projects[pIndex].dates);
