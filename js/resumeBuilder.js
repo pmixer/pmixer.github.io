@@ -6,8 +6,8 @@ var bio = {
   name: "Peter Huang",
   role: "Graduate Student",
   contacts: {
-    mobile: "+861861142****",
-    email: "dreaming_hz(at)hotmail(dot)com",
+    mobile: "+861761027****",
+    email: "huangzan(at)gatech(dot)edu",
     github: "<a href=\"https://github.com/peterhuang2015/\" class=\"last-a\">PeterHuang2015</a>",
     location: "Beijing, China",
     blog: "www.talkwithme.cn"
@@ -25,14 +25,14 @@ var bio = {
 
 var education = {
   schools: [{
-    name: "Northwestern Polytechincal University",
-    location: "Xi'an, China",
-    degree: "Bachelor of Engineering",
+    name: "Georgia Institute of Technology",
+    location: "Online",
+    degree: "MSc in Computer Science",
     majors: [
-      "Software Engineering"
+      "Computational Perception & Robotics"
     ],
-    dates: "2011-2015",
-    url: "http://www.nwpu.edu.cn"
+    dates: "2017-In Progress",
+    url: "http://www.omscs.gatech.edu"
   }, {
     name: "Beijing Institute of Technology",
     location: "Beijing, China",
@@ -43,14 +43,14 @@ var education = {
     dates: "2015-2018",
     url: "http://www.bit.edu.cn"
   }, {
-    name: "Georgia Institute of Technology",
-    location: "Online",
-    degree: "MSc in Computer Science",
+    name: "Northwestern Polytechincal University",
+    location: "Xi'an, China",
+    degree: "Bachelor of Engineering",
     majors: [
-      "Computational Perception & Robotics"
+      "Software Engineering"
     ],
-    dates: "2017-In Progress",
-    url: "http://www.omscs.gatech.edu"
+    dates: "2011-2015",
+    url: "http://www.nwpu.edu.cn"
   }, {
     name: "Udacity.Inc",
     location: "Online",
@@ -226,7 +226,7 @@ var projects = {
       dates: "2017",
       description: "Used vanilla C programming language to code up the feed forward fully connected neural network model for mnist classification task with data obtained from Kaggle, also video tutorials at <a href=\"https://space.bilibili.com/#/channel/detail?cid=6432\" class = \"last-a\">here</a>.",
       images: [
-        "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1502809760665&di=2e81f6305cbc0a4debd2a2e070189626&imgtype=0&src=http%3A%2F%2Fimages.cnitblog.com%2Fblog%2F320121%2F201505%2F131659018292396.png"
+        "http://ufldl.stanford.edu/tutorial/images/SingleNeuron.png"
       ]
     }, {
       title: "VOT_BIB",
