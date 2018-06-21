@@ -25,7 +25,6 @@
       <div class="trigger">
         <a class="page-link" href="/blog">博客</a>
         <a class="page-link" target="_blank" href="/resume.html">简历</a>
-        <a class="page-link" target="_blank" href="/841.html">841</a>
 
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
