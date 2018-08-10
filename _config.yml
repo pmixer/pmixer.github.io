@@ -1,13 +1,18 @@
 # Site settings
-title: 杂鱼记事
-# email:
-# description: ""
-baseurl: ""
+title: HUB
+subtitle: Celebrating Human Minds
+description: >-
+    Personal site for collaborative learning.
+author: pmixer
+email: PeterHuang2015 dot outlook dot com
+baseurl: "/jekyll-theme-prologue"
 timezone: Asia/Shanghai
 url: "http://talkwithme.cn/"
-# twitter_username: none
-github_username:  PeterHuang2015
 
+# be social
+github_url:  https://github.com/peterhuang2015
+linkedin_url: https://www.linkedin.com/in/pmixer/
+twitter_url: https://twitter.com/PeterHuang2015
 encoding: UTF-8
 
 # Build settings
