@@ -25,4 +25,7 @@ kramdown:
   auto_ids: true
   syntax_highlighter: rouge
 avatar: profile.png
-author: "黄焖鸡"
+
+# The following settings are NECESSARY for the Prologue theme to run:
+theme: jekyll-theme-prologue
+collections: [sections]
