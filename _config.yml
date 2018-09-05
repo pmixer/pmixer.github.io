@@ -1,11 +1,15 @@
+# exclude: ['README.md', 'skill.md']
+# permalink: ':title'
+# pygments: true
+# safe: false
+
 # Site settings
-title: HUB
+title: Toys
 subtitle: Celebrating Human Minds
 description: >-
     Personal site for collaborative learning.
 author: pmixer
 email: PeterHuang2015 dot outlook dot com
-baseurl: "/jekyll-theme-prologue"
 timezone: Asia/Shanghai
 url: "http://talkwithme.cn/"
 
@@ -27,5 +31,5 @@ kramdown:
 avatar: profile.png
 
 # The following settings are NECESSARY for the Prologue theme to run:
-theme: jekyll-theme-prologue
-collections: [sections]
+# theme: jekyll-theme-prologue
+# collections: [sections]

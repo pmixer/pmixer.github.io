@@ -2,8 +2,6 @@
 title: Skill List
 subtitle: to make a living
 layout: "page"
-icon: fa-book
-order: 3
 ---
 
 > My ideal job would be knowledge dealer, share what I learned with u and  benefit each other
