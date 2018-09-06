@@ -1,10 +1,14 @@
 ---
 title: Skill List
 subtitle: to make a living
-layout: "page"
+layout: null
 ---
 
 > My ideal job would be knowledge dealer, share what I learned with u and  benefit each other
+
+rougify style github > css/rougify_github_style.css
+
+rougify help style
 
 #### 已入库技能
 

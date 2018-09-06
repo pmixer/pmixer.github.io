@@ -10,7 +10,7 @@ description: >-
     Personal site for collaborative learning.
 author: pmixer
 email: PeterHuang2015 dot outlook dot com
-timezone: Asia/Shanghai
+# timezone: Asia/Shanghai
 url: "http://talkwithme.cn/"
 
 # be social
