@@ -1,5 +1,5 @@
 ---
-category: 'Caffe'
+category: 'Toolkits'
 title: 'Add layers in Caffe'
 type: 'Toolkit'
 path: '/toolkits/:id'
