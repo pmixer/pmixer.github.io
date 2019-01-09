@@ -33,3 +33,5 @@ avatar: profile.png
 # The following settings are NECESSARY for the Prologue theme to run:
 # theme: jekyll-theme-prologue
 # collections: [sections]
+
+theme: jekyll-theme-hacker
