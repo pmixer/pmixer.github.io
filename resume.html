@@ -33,10 +33,14 @@
         <div id="playground">
             <h2>Playgrounds</h2>
         </div>
-        
+
         <div id="mapDiv">
-            <h2>Where I've Lived and Worked</h2>
+          <h2>Where I've Lived and Worked</h2>
         </div>
+
+        <div id="comments"> #style="display: inline-block">
+        </div>
+
         <footer id="lets-connect" class="dark-gray">
             <h2 class="orange center-text">Let's Connect</h2>
             <ul id="footerContacts" class="flex-box flex-span">
@@ -45,29 +49,27 @@
     </div>
 
     <!--Building up resume-->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?v=3"></script>
-    <!-- <script async defer type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCmZuVCABWKIcz5AoJPX2AbjNa4vZo0PO8"></script>-->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3"></script> -->
+    <script async defer type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCmZuVCABWKIcz5AoJPX2AbjNa4vZo0PO8&callback=initMap"></script>
     <script src="js/helper.js"></script>
     <script src="js/resumeBuilder.js"></script>
-    
-    <!-- Gitalk -->
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 
-<div id="gitalk-container"></div>
-    <script type="text/javascript">
-    var gitalk = new Gitalk({
-    // gitalk的主要参数
-        clientID: `e0d74df6151b791d84a4`,
-        clientSecret: `ce54cdacb6dc7116d3243ec1db9750c10679356e`, // no more a secret...
-        repo: `PeterHuang2015.github.io`,
-        owner: 'PeterHuang2015',
-        admin: ['PeterHuang2015'],
-        id: 'resume',
-    
-    });
-    gitalk.render('gitalk-container');
-</script>
+    <!-- Gitalk -->
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+    <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+        <script type="text/javascript">
+        var gitalk = new Gitalk({
+        // gitalk的主要参数
+            clientID: `e0d74df6151b791d84a4`,
+            clientSecret: `ce54cdacb6dc7116d3243ec1db9750c10679356e`, // no more a secret...
+            repo: `PeterHuang2015.github.io`,
+            owner: 'PeterHuang2015',
+            admin: ['PeterHuang2015'],
+            id: 'resume',
+
+        });
+        gitalk.render('comments');
+    </script>
 
 </body>
 </html>
