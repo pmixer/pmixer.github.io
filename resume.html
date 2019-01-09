@@ -5,6 +5,7 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <!-- Load the page styles. -->
     <link href="css/resume_style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
     <!--Thx Udacity for providing prototype-->
     <script src="js/jQuery.js"></script>
     <!-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script> -->
@@ -38,8 +39,7 @@
           <h2>Where I've Lived and Worked</h2>
         </div>
 
-        <div id="comments"> #style="display: inline-block">
-        </div>
+        <div id="comments"></div>
 
         <footer id="lets-connect" class="dark-gray">
             <h2 class="orange center-text">Let's Connect</h2>
@@ -55,7 +55,6 @@
     <script src="js/resumeBuilder.js"></script>
 
     <!-- Gitalk -->
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
     <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
         <script type="text/javascript">
         var gitalk = new Gitalk({
@@ -65,8 +64,7 @@
             repo: `PeterHuang2015.github.io`,
             owner: 'PeterHuang2015',
             admin: ['PeterHuang2015'],
-            id: 'resume',
-
+            id: 'resume'
         });
         gitalk.render('comments');
     </script>

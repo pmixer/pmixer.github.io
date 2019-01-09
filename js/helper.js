@@ -28,33 +28,33 @@ var HTMLskillsStart = '<h3 id="skills-h3">Skills at a Glance:</h3><ul id="skills
 var HTMLskills = '<li class="flex-item"><span class="white-text">%data%</span></li>';
 
 var HTMLworkStart = '<div class="work-entry"></div>';
-var HTMLworkEmployer = '<a href="#">%data%';
-var HTMLworkTitle = ' - %data%</a>';
+var HTMLworkEmployer = '<br /><a href="#">%data%';
+var HTMLworkTitle = ' - %data%<br /></a>';
 var HTMLworkDates = '<div class="date-text">%data%</div>';
 var HTMLworkLocation = '<div class="location-text">%data%</div>';
 var HTMLworkDescription = '<p><br>%data%</p>';
 
 var HTMLprojectStart = '<div class="project-entry"></div>';
-var HTMLprojectTitle = '<a href="#">%data%</a>';
+var HTMLprojectTitle = '<br /><a href="#">%data%<br /></a>';
 var HTMLprojectDates = '<div class="date-text">%data%</div>';
 var HTMLprojectDescription = '<p><br>%data%</p>';
 var HTMLprojectImage = '<img class="project-image" src="%data%">';
 
 var HTMLschoolStart = '<div class="education-entry"></div>';
-var HTMLschoolName = '<a href="#">%data%';
-var HTMLschoolDegree = ' -- %data%</a>';
+var HTMLschoolName = '<br /><a href="#">%data%';
+var HTMLschoolDegree = ' -- %data%<br /></a>';
 var HTMLschoolDates = '<div class="date-text">%data%</div>';
 var HTMLschoolLocation = '<div class="location-text">%data%</div>';
 var HTMLschoolMajor = '<em><br>Major: %data%</em>';
 
 var HTMLcourseStart = '<div class="education-entry"></div>';
-var HTMLcourseTitle = '<a href="#">%data%';
-var HTMLcourseSchool = ' - %data%</a>';
+var HTMLcourseTitle = '<br /><a href="#">%data%';
+var HTMLcourseSchool = ' - %data%<br /></a>';
 var HTMLcourseDates = '<div class="date-text">%data%</div>';
 var HTMLcourseLocation = '<div class="location-text">%data%</div><br>';
 
 var HTMLplayGroundStart = '<div class="playground-entry"></div>';
-var HTMLplayGroundTitle = '<a class = "last-a" href="#">%data%</a>';
+var HTMLplayGroundTitle = '<br /><a class = "last-a" href="#">%data%<br /></a>';
 var HTMLplayGroundDescription = ' -- %data%<br>';
 
 var internationalizeButton = '<button>Internationalize</button>';
