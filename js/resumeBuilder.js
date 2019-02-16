@@ -18,7 +18,7 @@ var bio = {
     "Toolkits:                    CUDA, Caffe, Tensorflow, Chrome",
     "For Human Resource Managers: This is a responsible, creative man with essential skills.",
     "For Technical Leaders:       This is the one who is willing to share, learn and contribute.",
-    "For Operational Mangers:     This is the one with productivity, communication skills and empathy."
+    "For Managers:                This is the one with productivity, communication skills and empathy."
   ],
   biopic: "http://www.talkwithme.cn/assets/me.jpg",
 };
@@ -194,17 +194,18 @@ var work = {
 };
 
 var projects = {
-  projects: [{
-    title: "Naive Tracker",
-    url: "https://github.com/PeterHuang2015/NaiveTracker",
-    dates: "2015",
-    description: "Implement a simple visual tracker based on template matching technique by opencv to analysis the difficulty of visual tracking task. Updated the tracker to be compatible with vot challenge toolkit in 2017.",
-    images: [
-      "http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Basketball.png",
-      "http://www.votchallenge.net/img/vot2017_logo_website_large.png"
+//   projects: [{
+//     title: "Naive Tracker",
+//     url: "https://github.com/PeterHuang2015/NaiveTracker",
+//     dates: "2015",
+//     description: "Implement a simple visual tracker based on template matching technique by opencv to analysis the difficulty of visual tracking task. Updated the tracker to be compatible with vot challenge toolkit in 2017.",
+//     images: [
+//       "http://cvlab.hanyang.ac.kr/tracker_benchmark/seq/Basketball.png",
+//       "http://www.votchallenge.net/img/vot2017_logo_website_large.png"
 
-    ]
-  }, {
+//     ]
+//   },
+  {
     title: "Image Forensic Detector",
     url: "",
     dates: "2016",
@@ -212,15 +213,17 @@ var projects = {
     images: [
       "http://www.lambertoballan.net/wp-content/uploads/2013/03/copymove-300x207.png"
     ]
-  }, {
-      title: "Subtitle-Chopstick",
-      url: "https://github.com/PeterHuang2015/subtitle-chopstick",
-      dates: "2017",
-      description: "Tiny Chrome extension to help downloading vtt files for translation team at Udacity.",
-      images: [
-        "https://ssl.gstatic.com/chrome/webstore/images/sprites/common-64d82d8bc25b46502043dc430960d017.png"
-      ]
-    }, {
+  }
+//   , {
+//       title: "Subtitle-Chopstick",
+//       url: "https://github.com/PeterHuang2015/subtitle-chopstick",
+//       dates: "2017",
+//       description: "Tiny Chrome extension to help downloading vtt files for translation team at Udacity.",
+//       images: [
+//         "https://ssl.gstatic.com/chrome/webstore/images/sprites/common-64d82d8bc25b46502043dc430960d017.png"
+//       ]
+//     } 
+    ,{
       title: "SimpleNet",
       url: "https://github.com/PeterHuang2015/SimpleNet",
       dates: "2017",
@@ -228,15 +231,17 @@ var projects = {
       images: [
         "http://ufldl.stanford.edu/tutorial/images/SingleNeuron.png"
       ]
-    }, {
-      title: "VOT_BIB",
-      url: "https://github.com/PeterHuang2015/VOT_BIB",
-      dates: "2017",
-      description: "Small tool to help organizing bibliography concerning visual object tracking algorithms.",
-      images: [
-        "https://tse4-mm.cn.bing.net/th?id=OIP.D94Vh_4PXfxcv5iOS6hgcgEsB5&p=0&pid=1.1"
-      ]
-    }, {
+    }
+//   , {
+//       title: "VOT_BIB",
+//       url: "https://github.com/PeterHuang2015/VOT_BIB",
+//       dates: "2017",
+//       description: "Small tool to help organizing bibliography concerning visual object tracking algorithms.",
+//       images: [
+//         "https://tse4-mm.cn.bing.net/th?id=OIP.D94Vh_4PXfxcv5iOS6hgcgEsB5&p=0&pid=1.1"
+//       ]
+//     }
+, {
         title: "Computer Vision Course(Fall 2017)@Gatech",
         url: "https://classroom.udacity.com/courses/ud810",
         dates: "2017",
@@ -294,7 +299,7 @@ item:[
   }, {
     title: "TAAI 2017",
     url: "https://www.csie.ntu.edu.tw/~taai2017/",
-    description: "In which I registered, published one short paper with my own efforts and learned a lot."
+    description: "In which I registered, published one short paper by my own effort and learned a lot."
   }
 
   // , {
