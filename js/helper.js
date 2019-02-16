@@ -54,7 +54,7 @@ var HTMLcourseDates = '<div class="date-text">%data%</div>';
 var HTMLcourseLocation = '<div class="location-text">%data%</div><br>';
 
 var HTMLplayGroundStart = '<div class="playground-entry"></div>';
-var HTMLplayGroundTitle = '<br /><a class = "last-a" href="#">%data%<br /></a>';
+var HTMLplayGroundTitle = '<a class = "last-a" href="#">%data%<br /></a>';
 var HTMLplayGroundDescription = ' -- %data%<br>';
 
 var internationalizeButton = '<button>Internationalize</button>';
