@@ -6,11 +6,11 @@ var bio = {
   name: "Peter Huang",
   role: "Graduate Student",
   contacts: {
-    mobile: "+861761027****",
+    linkedin: "<a href=\"https://www.linkedin.com/in/pmixer/\" class=\"last-a\">pmixer</a>",
     email: "huangzan(at)gatech(dot)edu",
     github: "<a href=\"https://github.com/peterhuang2015/\" class=\"last-a\">PeterHuang2015</a>",
     location: "Beijing, China",
-    blog: "www.talkwithme.cn"
+    gscholar: "<a href=\"https://scholar.google.com/citations?hl=zh-CN&user=RwZOPyAAAAAJ\" class=\"last-a\">Zan Huang</a>",
   },
   welcomeMessage: "The Education Hacker",
   skills: [
@@ -29,7 +29,7 @@ var education = {
     location: "Online",
     degree: "MSc in Computer Science",
     majors: [
-      "Computational Perception & Robotics"
+      "Computer Science, specilized in "
     ],
     dates: "2017-In Progress",
     url: "http://www.omscs.gatech.edu"
@@ -83,7 +83,7 @@ var education = {
     dates: "In Progress",
     url: "http://www.udacity.com"
   }, {
-    title: "Data Structure",
+    title: "Data Structure and Algorithms",
     school: "Tsinghua University",
     location: "Online",
     dates: "2015.03.03 ～ 2015.07.10",
@@ -155,17 +155,17 @@ var education = {
 
 var work = {
   jobs: [{
+    employer: "Nvidia",
+    title: "Deep Learning Solution Architect",
+    location: "Beijing",
+    dates: "July 2018-In Progress",
+    description: "Help building/benchmarking awesome tools/applications for enterprise customers."
+  },{
     employer: "Udacity",
     title: "Intern",
     location: "Remote",
-    dates: "December 2016-In Progress",
-    description: "Help managing Front-end Developer Nanodegree study groups."
-  },{
-    employer: "Udacity",
-    title: "Translator",
-    location: "Remote",
-    dates: "August 2016-January 2017",
-    description: "Do subtitle translation for Front-end Developer Nanodegree course localization in China."
+    dates: "August 2016-June 2018",
+    description: "Nanodegree Student/Subtitle Translator/Student Mentor/Operation Coordinator/Project Reviewer."
   },{
     employer: "Graduate Data Mining Course in BIT",
     title: "Teaching Assistant",
@@ -194,7 +194,7 @@ var work = {
 };
 
 var projects = {
-//   projects: [{
+  projects: [
 //     title: "Naive Tracker",
 //     url: "https://github.com/PeterHuang2015/NaiveTracker",
 //     dates: "2015",
@@ -213,7 +213,7 @@ var projects = {
     images: [
       "http://www.lambertoballan.net/wp-content/uploads/2013/03/copymove-300x207.png"
     ]
-  }
+},
 //   , {
 //       title: "Subtitle-Chopstick",
 //       url: "https://github.com/PeterHuang2015/subtitle-chopstick",
@@ -222,8 +222,8 @@ var projects = {
 //       images: [
 //         "https://ssl.gstatic.com/chrome/webstore/images/sprites/common-64d82d8bc25b46502043dc430960d017.png"
 //       ]
-//     } 
-    ,{
+//     }
+    {
       title: "SimpleNet",
       url: "https://github.com/PeterHuang2015/SimpleNet",
       dates: "2017",
@@ -231,7 +231,7 @@ var projects = {
       images: [
         "http://ufldl.stanford.edu/tutorial/images/SingleNeuron.png"
       ]
-    }
+  },
 //   , {
 //       title: "VOT_BIB",
 //       url: "https://github.com/PeterHuang2015/VOT_BIB",
@@ -241,23 +241,24 @@ var projects = {
 //         "https://tse4-mm.cn.bing.net/th?id=OIP.D94Vh_4PXfxcv5iOS6hgcgEsB5&p=0&pid=1.1"
 //       ]
 //     }
-, {
-        title: "Computer Vision Course(Fall 2017)@Gatech",
-        url: "https://classroom.udacity.com/courses/ud810",
-        dates: "2017",
-        description: "It's part of my online MSc in Computer Science Degree coursework in which we get hands dirty with object detection, <a href=\"https://www.youtube.com/watch?v=S5Z6Avo_aVs&feature=youtu.be\" class = \"last-a\">augmented reality</a>, optical flow, visual tracking and face detection .etc",
-        images: [
-          "http://www.talkwithme.cn/assets/cvp5.png"
-        ]
-      }, {
-          title: "Artificial Intelligence Course(Fall 2017)@Gatech",
-          url: "https://classroom.udacity.com/courses/ud954",
-          dates: "2017",
-          description: "It's part of my online MSc in Computer Science Degree coursework in which we get hands dirty with Minimax with Alpha-Beta pruning, A* search, Bayes Network, Decision Tree, AdaBoost .etc",
-          images: [
-            "http://www.talkwithme.cn/assets/aia2.png"
-          ]
-        }
+
+// ,{
+//         title: "Computer Vision Course(Fall 2017)@Gatech",
+//         url: "https://classroom.udacity.com/courses/ud810",
+//         dates: "2017",
+//         description: "It's part of my online MSc in Computer Science Degree coursework in which we get hands dirty with object detection, <a href=\"https://www.youtube.com/watch?v=S5Z6Avo_aVs&feature=youtu.be\" class = \"last-a\">augmented reality</a>, optical flow, visual tracking and face detection .etc",
+//         images: [
+//           "http://www.talkwithme.cn/assets/cvp5.png"
+//         ]
+//       }, {
+//           title: "Artificial Intelligence Course(Fall 2017)@Gatech",
+//           url: "https://classroom.udacity.com/courses/ud954",
+//           dates: "2017",
+//           description: "It's part of my online MSc in Computer Science Degree coursework in which we get hands dirty with Minimax with Alpha-Beta pruning, A* search, Bayes Network, Decision Tree, AdaBoost .etc",
+//           images: [
+//             "http://www.talkwithme.cn/assets/aia2.png"
+//           ]
+//         }
     ]
 
   // , {
@@ -296,11 +297,12 @@ item:[
     title: "Python Challenge",
     url: "http://www.pythonchallenge.com/",
     description: "Sovling the puzzle and learn python at the same time"
-  }, {
-    title: "TAAI 2017",
-    url: "https://www.csie.ntu.edu.tw/~taai2017/",
-    description: "In which I registered, published one short paper by my own effort and learned a lot."
   }
+  // , {
+  //   title: "TAAI 2017",
+  //   url: "https://www.csie.ntu.edu.tw/~taai2017/",
+  //   description: "In which I registered, published one short paper by my own effort and learned a lot."
+  // }
 
   // , {
   //   title: "",
@@ -311,6 +313,16 @@ item:[
 ]
 };
 
+var publication = {
+    pieces: [
+        {
+            title: "An investigation of deep tracking methods",
+            url: "assets/An_Investigation_of_Deep_Tracking_Methods.pdf",
+            description: "TAAI 2017"
+        },
+    ]
+};
+
 var data = "%data%";
 
 // construction functions
@@ -318,11 +330,11 @@ bio.display = function() {
   HTMLheaderName = HTMLheaderName.replace(data, bio.name);
   HTMLheaderRole = HTMLheaderRole.replace(data, bio.role);
 
-  HTMLmobile = HTMLmobile.replace(data, bio.contacts.mobile);
+  HTMLlinkedin = HTMLlinkedin.replace(data, bio.contacts.linkedin);
   HTMLemail = HTMLemail.replace(data, bio.contacts.email);
   HTMLgithub = HTMLgithub.replace(data, bio.contacts.github);
   HTMLlocation = HTMLlocation.replace(data, bio.contacts.location);
-  HTMLblog = HTMLblog.replace(data, bio.contacts.blog);
+  HTMLscholar = HTMLscholar.replace(data, bio.contacts.gscholar);
 
   HTMLbioPic = HTMLbioPic.replace(data, bio.biopic);
 
@@ -331,11 +343,12 @@ bio.display = function() {
   $('#header').prepend(HTMLheaderRole);
   $('#header').prepend(HTMLheaderName);
 
-  $('#topContacts, #footerContacts').append(HTMLmobile);
-  $('#topContacts, #footerContacts').append(HTMLemail);
+  $('#topContacts, #footerContacts').append(HTMLscholar);
+  $('#topContacts, #footerContacts').append(HTMLlinkedin);
   $('#topContacts, #footerContacts').append(HTMLgithub);
+  $('#topContacts, #footerContacts').append(HTMLemail);
   $('#topContacts, #footerContacts').append(HTMLlocation);
-  $('#topContacts, #footerContacts').append(HTMLblog);
+
 
   $('#header').append(HTMLbioPic);
   $('#header').append(HTMLwelcomeMsg);
@@ -348,7 +361,7 @@ bio.display = function() {
 };
 
 work.display = function() {
-  $('#workExperience').append(HTMLworkStart);
+  $('#career').append(HTMLworkStart);
 
   for (var jobIndex = 0; jobIndex < work.jobs.length; jobIndex++) {
     e = HTMLworkEmployer.replace(data, work.jobs[jobIndex].employer);
@@ -435,6 +448,17 @@ playgrounds.display = function(){
   }
 }
 
+publication.display = function(){
+  $('#publication').append(HTMLpublicationStart);
+  var pgs = publication.pieces;
+  for (var pIndex = 0; pIndex < pgs.length; pIndex++) {
+    pt = HTMLpublicationTitle.replace(data, pgs[pIndex].title);
+    pt = pt.replace("#", pgs[pIndex].url);
+    pd = HTMLpublicationDescription.replace(data, pgs[pIndex].description);
+    $('.publication-entry:last').append(pt+pd);
+  }
+}
+
 function addGMap() {
   $("#mapDiv").append(googleMap);
   $("#mapDiv").append(map);
@@ -442,7 +466,7 @@ function addGMap() {
 
 // constructing
 function constructResume() {
-
+  publication.display();
   bio.display();
   work.display();
   projects.display();

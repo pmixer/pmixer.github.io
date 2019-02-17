@@ -14,11 +14,11 @@ var HTMLheaderName = '<h1 id="name">%data%</h1>';
 var HTMLheaderRole = '<span>%data%</span><hr>';
 
 var HTMLcontactGeneric = '<li class="flex-item"><span class="orange-text">%contact%</span><span class="white-text">%data%</span></li>';
-var HTMLmobile = '<li class="flex-item"><span class="orange-text">Mobile</span><span class="white-text">%data%</span></li>';
+var HTMLlinkedin = '<li class="flex-item"><span class="orange-text">Linkedin</span><span class="white-text">%data%</span></li>';
 var HTMLemail = '<li class="flex-item"><span class="orange-text">Email</span><span class="white-text">%data%</span></li>';
 var HTMLtwitter = '<li class="flex-item"><span class="orange-text">Twitter</span><span class="white-text">%data%</span></li>';
 var HTMLgithub = '<li class="flex-item"><span class="orange-text">Github</span><span class="white-text">%data%</span></li>';
-var HTMLblog = '<li class="flex-item"><span class="orange-text">Blog</span><span class="white-text">%data%</span></li>';
+var HTMLscholar = '<li class="flex-item"><span class="orange-text">GScholar</span><span class="white-text">%data%</span></li>';
 var HTMLlocation = '<li class="flex-item"><span class="orange-text">Location</span><span class="white-text">%data%</span></li>';
 
 var HTMLbioPic = '<img src="%data%" class="biopic">';
@@ -54,8 +54,12 @@ var HTMLcourseDates = '<div class="date-text">%data%</div>';
 var HTMLcourseLocation = '<div class="location-text">%data%</div><br>';
 
 var HTMLplayGroundStart = '<div class="playground-entry"></div>';
-var HTMLplayGroundTitle = '<a class = "last-a" href="#">%data%<br /></a>';
+var HTMLplayGroundTitle = '<a class = "last-a" href="#">%data%</a>';
 var HTMLplayGroundDescription = ' -- %data%<br>';
+
+var HTMLpublicationStart = '<div class="publication-entry"></div>';
+var HTMLpublicationTitle = '<a class = "last-a" href="#">%data%</a>';
+var HTMLpublicationDescription = ' -- %data%<br>';
 
 var internationalizeButton = '<button>Internationalize</button>';
 var googleMap = '<div id="map"></div>';
@@ -135,7 +139,7 @@ function initializeMap() {
     });
 
     console.log(locations);
-    locations = ["Xi'an, China", "Beijing, China"]
+    locations = ["Tengzhou, China", "Xi'an, China", "Beijing, China"]
     return locations;
   }
 
