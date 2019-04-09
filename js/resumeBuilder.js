@@ -3,7 +3,7 @@ Resume building
  */
 // Initialize objects
 var bio = {
-  name: "Peter Huang",
+  name: "Zan Huang",
   role: "Graduate Student",
   contacts: {
     linkedin: "<a href=\"https://www.linkedin.com/in/pmixer/\" class=\"last-a\">pmixer</a>",
@@ -14,15 +14,15 @@ var bio = {
   },
   welcomeMessage: "The Education Hacker",
   skills: [
-    "Exploring:  HPC, Robotics, Big Data, Operating Systems"
+    "Exploring:  HPC, Robotics, Big Data, Operating Systems",
     "Dialects:   C, C++, Python, Javascript, CUDA",
     "Toolkits:   Caffe/Tensorflow/Pytorch, Chrome",
-    "Basics:     ML/AI/CV, Physics, Math"
+    "Basics:     ML/AI/CV, Physics, Math",
   ],
   //   "For Human Resource Managers: This is a responsible, creative man with essential skills.",
   //  "For Technical Leaders:       This is the one who is willing to share, learn and contribute.",
   //  "For Managers:                This is the one with productivity, communication skills and empathy."
-  biopic: "/assets/me.jpg",
+  biopic: "assets/me.jpg",
 };
 
 var education = {
@@ -474,8 +474,8 @@ function constructResume() {
   projects.display();
   education.display();
   playgrounds.display();
-  addGMap();
-  initializeMap();
+  // addGMap();
+  // initializeMap();
 }
 
 constructResume();
