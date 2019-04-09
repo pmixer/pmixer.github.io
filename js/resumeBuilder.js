@@ -14,10 +14,10 @@ var bio = {
   },
   welcomeMessage: "The Education Hacker",
   skills: [
-    "Programming Languages:       C, C++, Python, Javascript, CUDA etc.",
-    "Toolkits:                    Caffe, Tensorflow, Pytorch, Chrome, etc.",
-    "Theory:                      ML/AI, Physics, Computer Vision etc.",
-    "Exploring:                   HPC, Robotics, Big Data, Operating Systems"
+    "Exploring:  HPC, Robotics, Big Data, Operating Systems"
+    "Dialects:   C, C++, Python, Javascript, CUDA",
+    "Toolkits:   Caffe/Tensorflow/Pytorch, Chrome",
+    "Basics:     ML/AI/CV, Physics, Math"
   ],
   //   "For Human Resource Managers: This is a responsible, creative man with essential skills.",
   //  "For Technical Leaders:       This is the one who is willing to share, learn and contribute.",
