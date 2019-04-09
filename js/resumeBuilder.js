@@ -14,13 +14,15 @@ var bio = {
   },
   welcomeMessage: "The Education Hacker",
   skills: [
-    "Programming Languages:       C, C++, Python, Javascript, Java",
-    "Toolkits:                    CUDA, Caffe, Tensorflow, Chrome",
-    "For Human Resource Managers: This is a responsible, creative man with essential skills.",
-    "For Technical Leaders:       This is the one who is willing to share, learn and contribute.",
-    "For Managers:                This is the one with productivity, communication skills and empathy."
+    "Programming Languages:       C, C++, Python, Javascript, CUDA etc.",
+    "Toolkits:                    Caffe, Tensorflow, Pytorch, Chrome, etc.",
+    "Theory:                      ML/AI, Physics, Computer Vision etc.",
+    "Exploring:                   HPC, Robotics, Big Data, Operating Systems"
   ],
-  biopic: "http://www.talkwithme.cn/assets/me.jpg",
+  //   "For Human Resource Managers: This is a responsible, creative man with essential skills.",
+  //  "For Technical Leaders:       This is the one who is willing to share, learn and contribute.",
+  //  "For Managers:                This is the one with productivity, communication skills and empathy."
+  biopic: "/assets/me.jpg",
 };
 
 var education = {
