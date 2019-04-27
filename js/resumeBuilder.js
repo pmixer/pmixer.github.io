@@ -15,8 +15,8 @@ var bio = {
   welcomeMessage: "The Education Hacker",
   skills: [
     "Exploring:  HPC, Robotics, Big Data, Operating Systems",
-    "Dialects:   C, C++, Python, Javascript, CUDA",
     "Toolkits:   Caffe/Tensorflow/Pytorch, Chrome",
+    "Dialects:   C, C++, Python, Javascript, CUDA",
     "Basics:     ML/AI/CV, Physics, Math",
   ],
   //   "For Human Resource Managers: This is a responsible, creative man with essential skills.",
@@ -182,7 +182,7 @@ var work = {
     description: "Organized daily programs for nearly 400 people in Sunshine International Camp. Co-coached, guided and looked after middle school students in CJ Camp."
   },{
     employer: "Registrar's Office in NPU",
-    title: "Casual Worker",
+    title: "Part-time Web Developer",
     location: "Xi’an, China",
     dates: "​ May 2014",
     description: "Customer requirements collection and analysis. Coded up all the HTML pages and hosted the website on platform of NPU."
