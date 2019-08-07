@@ -6,10 +6,11 @@ layout: default
 	{% include nav.html %}
 </nav>
 
+
 <section id='content'>
 {% for post in site.posts %}
-  <article class='{{ post.type }}'>
-    <a name='{{ post.url }}' href='#{{ post.url }}'><h2>{% if post.type %}<code><b>{{ post.type }}</b> {{ post.path }}</code> {% endif %}{{ post.title }}</h2></a>
+  <article class='{{ post.category }}'>
+    <a name='{{ post.url }}' href='#{{ post.url }}'><h2>{% if post.category %}<code><b>{{ post.category }}</b> {{ post.note }}</code> {% endif %}{{ post.title }}</h2></a>
     <section class='body'>
       {{ post.content }}
     </section>
@@ -34,5 +35,8 @@ layout: default
     gitalk.render('gitalk-container');
 </script>
 <!-- Gitalk end -->
-
 </section>
+
+<nav id='countdown'>
+	{% include countdown.html %}
+</nav>

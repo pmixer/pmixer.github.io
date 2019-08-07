@@ -4,24 +4,23 @@
 # safe: false
 
 # Site settings
-title: Toys
+title: MIND Log
 subtitle: Celebrating Human Minds
 description: >-
     Personal site for collaborative learning.
 author: pmixer
 email: PeterHuang2015 dot outlook dot com
 # timezone: Asia/Shanghai
-url: "http://talkwithme.cn/"
+url: "http://pay4trip.bid/"
 
 # be social
 github_url:  https://github.com/peterhuang2015
 linkedin_url: https://www.linkedin.com/in/pmixer/
-twitter_url: https://twitter.com/PeterHuang2015
 encoding: UTF-8
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:path
 
 highlighter: rouge
 kramdown:
@@ -29,10 +28,6 @@ kramdown:
   auto_ids: true
   syntax_highlighter: rouge
 avatar: profile.png
-
-# The following settings are NECESSARY for the Prologue theme to run:
-# theme: jekyll-theme-prologue
-# collections: [sections]
 
 theme: null # jekyll-theme-hacker
 
@@ -43,4 +38,4 @@ gitalk:
   repo: PeterHuang2015.github.io    #仓库名称
   owner: PeterHuang2015    #github用户名
   admin: PeterHuang2015
-  # distractionFreeMode: true #是否启用类似FB的阴影遮罩
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩

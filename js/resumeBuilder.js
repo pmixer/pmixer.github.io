@@ -250,7 +250,7 @@ var projects = {
 //         dates: "2017",
 //         description: "It's part of my online MSc in Computer Science Degree coursework in which we get hands dirty with object detection, <a href=\"https://www.youtube.com/watch?v=S5Z6Avo_aVs&feature=youtu.be\" class = \"last-a\">augmented reality</a>, optical flow, visual tracking and face detection .etc",
 //         images: [
-//           "http://www.talkwithme.cn/assets/cvp5.png"
+//           "http://www.pay4trip.bid/assets/cvp5.png"
 //         ]
 //       }, {
 //           title: "Artificial Intelligence Course(Fall 2017)@Gatech",
@@ -258,7 +258,7 @@ var projects = {
 //           dates: "2017",
 //           description: "It's part of my online MSc in Computer Science Degree coursework in which we get hands dirty with Minimax with Alpha-Beta pruning, A* search, Bayes Network, Decision Tree, AdaBoost .etc",
 //           images: [
-//             "http://www.talkwithme.cn/assets/aia2.png"
+//             "http://www.pay4trip.bid/assets/aia2.png"
 //           ]
 //         }
     ]
