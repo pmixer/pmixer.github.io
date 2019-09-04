@@ -9,6 +9,14 @@ website: "https://iclr.cc/Conferences/2020/CallForPapers",
 approx: 0,
 });
 
+deadlines.push({
+  venue: "ICME 2020",
+  area: "Multi Media",
+  deadline: moment("2019-11-29 18:00:00 +0300", "YYYY-MM-DD HH:mm:ss Z"),
+  website: "http://www.2020.ieeeicme.org/index.php/important-dates/",
+  approx: 0,
+  });
+
 
 deadlines.push({
 venue: "AAAI 2020",
