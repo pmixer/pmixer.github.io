@@ -45,17 +45,17 @@ approx: 0,
 deadlines.push({
 venue: "IJCAI-2020",
 area: "Artifical Intelligence",
-deadline: moment("2020-01-01 23:59:00 -1200", "YYYY-MM-DD HH:mm:ss Z"),
+deadline: moment("2020-01-15 23:59:00 -1200", "YYYY-MM-DD HH:mm:ss Z"),
 website: "https://ijcai20.org/",
-approx: 1,
+approx: 0,
 });
 
 deadlines.push({
 venue: "WWW-2020",
 area: "The Web Conference",
-deadline: moment("2020-01-01 23:59:00 -1200", "YYYY-MM-DD HH:mm:ss Z"),
+deadline: moment("2019-10-07 23:59:00 -1200", "YYYY-MM-DD HH:mm:ss Z"),
 website: "https://www2020.thewebconf.org/",
-approx: 1,
+approx: 0,
 });
 
 deadlines.push({
@@ -99,9 +99,9 @@ approx: 1,
 });
 
 deadlines.push({
-venue: "ICASSP-2020",
+venue: "ICASSP-2021",
 area: "Signal Processing",
-deadline: moment("2019-10-21 23:59:00 -0000", "YYYY-MM-DD HH:mm:ss Z"),
+deadline: moment("2020-10-21 23:59:00 -0000", "YYYY-MM-DD HH:mm:ss Z"),
 website: "https://2020.ieeeicassp.org/authors/call-for-papers/",
 approx: 1,
 });
@@ -109,9 +109,9 @@ approx: 1,
 deadlines.push({
 venue: "ICML-2020",
 area: "Machine Learning",
-deadline: moment("2020-01-01 23:59:00 -0000", "YYYY-MM-DD HH:mm:ss Z"),
+deadline: moment("2020-01-30 23:59:00 -0000", "YYYY-MM-DD HH:mm:ss Z"),
 website: "https://icml.cc/Conferences/2020",
-approx: 1,
+approx: 0,
 });
 
 deadlines.push({
