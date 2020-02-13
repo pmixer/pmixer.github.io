@@ -4,7 +4,7 @@ subtitle: to make a living
 layout: null
 ---
 
-> My ideal job would be knowledge dealer, share what I learned with u and  benefit each other
+My ideal job would be knowledge dealer, share what I learned with u and  benefit each other
 
 rougify style github > css/rougify_github_style.css
 
@@ -32,3 +32,6 @@ rougify help style
 + Udacity FEND(前端纳米学位)
 + 写纯野生神经网络工具 SimpleNet 并借此在 B 站野生技术协会当 up 主
 + 从 nn4ml 到 c231n，加上 pgm 和 cs188.1 还有很多看过的资料杂糅出来的粗浅机器学习知识
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNDYwNTU5MjIzXX0=
+-->
