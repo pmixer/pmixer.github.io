@@ -17,20 +17,19 @@ layout: default
   </article>
 {% endfor %}
 
-<!-- Gitalk 评论 start  -->
+<!-- Gitalk comment start  -->
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 <div id="gitalk-container"></div>     <script type="text/javascript">
     var gitalk = new Gitalk({
-
-    // gitalk的主要参数
-		clientID: `e0d74df6151b791d84a4`,
-		clientSecret: `ce54cdacb6dc7116d3243ec1db9750c10679356e`, // no more a secret...
-		repo: `PeterHuang2015.github.io`,
-		owner: 'PeterHuang2015',
-		admin: ['PeterHuang2015'],
-		id: 'index',
-
+      // gitalk parameters
+      clientID: `e0d74df6151b791d84a4`,
+      clientSecret: `ce54cdacb6dc7116d3243ec1db9750c10679356e`, // no more a secret...
+      repo: `PeterHuang2015.github.io`,
+      owner: 'PeterHuang2015',
+      admin: ['PeterHuang2015'],
+      id: 'index',
+      language: 'en'
     });
     gitalk.render('gitalk-container');
 </script>

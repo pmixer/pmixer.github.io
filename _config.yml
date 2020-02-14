@@ -4,17 +4,17 @@
 # safe: false
 
 # Site settings
-title: MIND Log
+title: Paper Explained
 subtitle: Celebrating Human Minds
 description: >-
     Personal site for collaborative learning.
 author: pmixer
-email: PeterHuang2015 dot outlook dot com
+email: dreaming underscore hz at hotmail dot com
 # timezone: Asia/Shanghai
-url: "http://pay4trip.bid/"
+url: "http://huangzan.me"
 
 # be social
-github_url:  https://github.com/peterhuang2015
+github_url:  https://github.com/pmixer
 linkedin_url: https://www.linkedin.com/in/pmixer/
 encoding: UTF-8
 
@@ -27,7 +27,7 @@ kramdown:
   input: GFM
   auto_ids: true
   syntax_highlighter: rouge
-avatar: profile.png
+# avatar: .png
 
 theme: null # jekyll-theme-hacker
 
