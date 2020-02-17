@@ -171,7 +171,8 @@ L06a:
 
  1. Distributed object for perf and function evoluation of OS production, Spring, Yousef
  2. Sun's UNIX inside as an example
- 3. Strong 
+ 3. Strong interface + object to hold private state->OOP OS, good kernel required for perf
+ 4. 
 
 Classroom Notes
 
@@ -497,6 +498,6 @@ to let other threads to run, keep checking without letting producer to add lead 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTE1MjY1NSwyMDkxMDAzNjY0LDc5Mz
+eyJoaXN0b3J5IjpbMTk3OTY1NTA1MCwyMDkxMDAzNjY0LDc5Mz
 M4OTg5XX0=
 -->
