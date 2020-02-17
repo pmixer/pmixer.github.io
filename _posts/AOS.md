@@ -167,14 +167,16 @@ L05b:
     
 10.  3(N-1) comm for lock acquisition, just jumped here to try the quiz when know nothign
 
+
 L05c:
-	1. Sequential consistency mem model?
-	2. latency and throughput quiz
+1.  Sequential consistency mem model?
+2.  latency and throughput quiz
 
 L05d:
-	1. Active nework ahead of time->isolation(SDN?)
-	2. df
-	3.  
+1.  Active nework ahead of time->isolation(SDN?)
+2.  df
+3. jk  
+4. 
  
 L06a:
 
@@ -507,6 +509,6 @@ to let other threads to run, keep checking without letting producer to add lead 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MTkyMTgzMSwxNzEyMjYxNjI0LDIwOT
-EwMDM2NjQsNzkzMzg5ODldfQ==
+eyJoaXN0b3J5IjpbLTE5MTI2Nzk0NjYsMTcxMjI2MTYyNCwyMD
+kxMDAzNjY0LDc5MzM4OTg5XX0=
 -->
