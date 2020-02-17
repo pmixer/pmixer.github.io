@@ -507,8 +507,10 @@ by POSIX design, they can join on other threads as long as having the thread ID.
 
 to let other threads to run, keep checking without letting producer to add lead to dead loop
 
-
+02/17/2020
++ Scribing duty today
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MTYxNTc3NSwxMDc5Njc2MjA5LDE3MT
-IyNjE2MjQsMjA5MTAwMzY2NCw3OTMzODk4OV19
+eyJoaXN0b3J5IjpbOTk1NDM3NTQwLDE2NTE2MTU3NzUsMTA3OT
+Y3NjIwOSwxNzEyMjYxNjI0LDIwOTEwMDM2NjQsNzkzMzg5ODld
+fQ==
 -->
