@@ -170,7 +170,8 @@ L05b:
 L06a:
 
  1. Distributed object for perf and function evoluation of OS production, Spring, Yousef
- 2. 
+ 2. Sun's UNIX inside as an example
+ 3. Strong 
 
 Classroom Notes
 
@@ -496,5 +497,6 @@ to let other threads to run, keep checking without letting producer to add lead 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTAwMzY2NCw3OTMzODk4OV19
+eyJoaXN0b3J5IjpbMTc2OTE1MjY1NSwyMDkxMDAzNjY0LDc5Mz
+M4OTg5XX0=
 -->
