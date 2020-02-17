@@ -175,8 +175,8 @@ L05c:
 L05d:
 1.  Active nework ahead of time->isolation(SDN?)
 2.  network structure in a nutshell, smart next hop4virt in public
-3.  
-4. 
+3.  example, N2N vs One2N(by AR, Activate Routing ctrl by code)
+4.  
 
 L06a:
 
@@ -509,6 +509,6 @@ to let other threads to run, keep checking without letting producer to add lead 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3OTY3NjIwOSwxNzEyMjYxNjI0LDIwOT
-EwMDM2NjQsNzkzMzg5ODldfQ==
+eyJoaXN0b3J5IjpbMTY1MTYxNTc3NSwxMDc5Njc2MjA5LDE3MT
+IyNjE2MjQsMjA5MTAwMzY2NCw3OTMzODk4OV19
 -->
