@@ -166,9 +166,15 @@ L05b:
 9.  TODO
     
 10.  3(N-1) comm for lock acquisition, just jumped here to try the quiz when know nothign
+
 L05c:
-1. Sequential consistency mem model?
-2. latency and throughput quiz
+11. Sequential consistency mem model?
+12. latency and throughput quiz
+
+L05d:
+13. Active nework ahead of time->isolation
+14. 
+ 
 L06a:
 
  1. Distributed object for perf and function evoluation of OS production, Spring, Yousef
@@ -500,6 +506,6 @@ to let other threads to run, keep checking without letting producer to add lead 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODIzMDA2OTMsMTcxMjI2MTYyNCwyMD
+eyJoaXN0b3J5IjpbLTEyMTM0MTg5MjMsMTcxMjI2MTYyNCwyMD
 kxMDAzNjY0LDc5MzM4OTg5XX0=
 -->
