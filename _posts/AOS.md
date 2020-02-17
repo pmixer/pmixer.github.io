@@ -166,7 +166,8 @@ L05b:
 9.  TODO
     
 10.  3(N-1) comm for lock acquisition, just jumped here to try the quiz when know nothign
-
+L05c:
+1. Sequential consistency mem model, 
 L06a:
 
  1. Distributed object for perf and function evoluation of OS production, Spring, Yousef
@@ -498,6 +499,6 @@ to let other threads to run, keep checking without letting producer to add lead 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTY1NTA1MCwyMDkxMDAzNjY0LDc5Mz
+eyJoaXN0b3J5IjpbMTcxMjI2MTYyNCwyMDkxMDAzNjY0LDc5Mz
 M4OTg5XX0=
 -->
