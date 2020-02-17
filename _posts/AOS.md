@@ -167,6 +167,10 @@ L05b:
     
 10.  3(N-1) comm for lock acquisition, just jumped here to try the quiz when know nothign
 
+L06a:
+
+ 1. List i
+
 Classroom Notes
 
 In case no access to pen&paper
@@ -491,5 +495,5 @@ to let other threads to run, keep checking without letting producer to add lead 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkzMzg5ODldfQ==
+eyJoaXN0b3J5IjpbLTEzNjMzMDY4NzYsNzkzMzg5ODldfQ==
 -->
