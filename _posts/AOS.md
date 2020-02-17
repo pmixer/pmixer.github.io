@@ -169,7 +169,7 @@ L05b:
 
 L06a:
 
- 1. List i
+ 1. Distributed object for perf and function evoluation of OS production
 
 Classroom Notes
 
@@ -495,5 +495,5 @@ to let other threads to run, keep checking without letting producer to add lead 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjMzMDY4NzYsNzkzMzg5ODldfQ==
+eyJoaXN0b3J5IjpbLTEyNjc5MDMxODQsNzkzMzg5ODldfQ==
 -->
