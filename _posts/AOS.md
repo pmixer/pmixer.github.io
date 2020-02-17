@@ -169,7 +169,8 @@ L05b:
 
 L06a:
 
- 1. Distributed object for perf and function evoluation of OS production
+ 1. Distributed object for perf and function evoluation of OS production, Spring, Yousef
+ 2. 
 
 Classroom Notes
 
@@ -495,5 +496,5 @@ to let other threads to run, keep checking without letting producer to add lead 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjc5MDMxODQsNzkzMzg5ODldfQ==
+eyJoaXN0b3J5IjpbMjA5MTAwMzY2NCw3OTMzODk4OV19
 -->
