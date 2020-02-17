@@ -174,10 +174,10 @@ L05c:
 
 L05d:
 1.  Active nework ahead of time->isolation(SDN?)
-2.  df
+2.  network structure
 3. jk  
 4. 
- 
+
 L06a:
 
  1. Distributed object for perf and function evoluation of OS production, Spring, Yousef
@@ -509,6 +509,6 @@ to let other threads to run, keep checking without letting producer to add lead 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTI2Nzk0NjYsMTcxMjI2MTYyNCwyMD
+eyJoaXN0b3J5IjpbLTExMTUxNzE5ODUsMTcxMjI2MTYyNCwyMD
 kxMDAzNjY0LDc5MzM4OTg5XX0=
 -->
