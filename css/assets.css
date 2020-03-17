@@ -83,6 +83,16 @@ body {
  * Address `outline` inconsistency between Chrome and other browsers.
  */
 
+.body a:link {
+  font-size: 16px;
+  color: hotpink;
+}
+
+.body a:visited {
+  font-size: 10px;
+  color: green;
+}
+
 a:focus {
     outline: thin dotted;
 }
@@ -684,7 +694,7 @@ padding-right: 30px;
 /*font-size: 14px;*/
 }
 /* The cells that contain each deadline */
-.dd {
+.course {
 padding: 10px;
 margin-bottom: 3px;
 background-color: #EEE;
@@ -692,7 +702,7 @@ border: 1px solid #DDD;
 cursor: pointer;
 position: relative;
 }
-.dd:hover {
+.course:hover {
 background-color: #DDD;
 border: 1px solid #AAA;
 cursor: default;
@@ -714,14 +724,12 @@ font-weight: bold;
 margin-top: 16px;
 }
 /* Area description div */
-.ad {
+.tname {
 font-family: monospace;
 }
-/* Time description div */
-.td {
-}
+
 /* Venue description div */
-.vd {
+.cname {
 font-weight: bold;
 font-size: 16px;
 }

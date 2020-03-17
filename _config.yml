@@ -1,17 +1,16 @@
-# exclude: ['README.md', 'skill.md']
-# permalink: ':title'
+# exclude: ['README.md']
 # pygments: true
 # safe: false
 
 # Site settings
-title: Paper Explained
+title: MIND LOG
 subtitle: Celebrating Human Minds
 description: >-
     Personal site for collaborative learning.
 author: pmixer
 email: dreaming underscore hz at hotmail dot com
-# timezone: Asia/Shanghai
-url: "http://huangzan.me"
+timezone: Asia/Shanghai
+url: "https://paperexplained.engineer/"
 
 # be social
 github_url:  https://github.com/pmixer
@@ -30,12 +29,3 @@ kramdown:
 # avatar: .png
 
 theme: null # jekyll-theme-hacker
-
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: e0d74df6151b791d84a4                            #生成的clientID
-  clientSecret: ce54cdacb6dc7116d3243ec1db9750c10679356e    #生成的clientSecret
-  repo: PeterHuang2015.github.io    #仓库名称
-  owner: PeterHuang2015    #github用户名
-  admin: PeterHuang2015
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
