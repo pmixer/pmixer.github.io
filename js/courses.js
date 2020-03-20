@@ -92,7 +92,7 @@ courses.push({
 courses.push({
   teacher: "Prof Eric Grimson et al.",
   school: "Massachusetts Institute of Technology",
-  title: "Introduction to Computer Science and Programming",
+  title: "Introduction to CS Programming",
   link: "https://www.xuetangx.com/courses/MITx/6_00_1x/2014_T2/about",
   in: moment("2015 January", "YYYY MMM")
 });
@@ -259,8 +259,8 @@ courses.push({
 
 courses.push({
   teacher: "Prof Gautam Kaul",
-  school: "University of Michigan
-  title: "Introduction to Finance
+  school: "University of Michigan",
+  title: "Introduction to Finance",
   link: "https://www.coursera.org/instructor/gautam.kaul",
   in: moment("2014 May", "YYYY MMM")
 });
@@ -405,14 +405,14 @@ function refreshDisplay() {
 
   for(var i = 0; i < courses.length; i++) {
     var c = courses[i];
-    prefix = "<a class=\"sd\" href=\"" + c.link + "\">";
+    prefix = "<a class=\"sd\" target=\"_blank\" href=\"" + c.link + "\">";
     suffix = "</a>";
 
     $("#course" + i).html(
-      prefix + "<div>" + c.school + "</div>"
+      prefix + "<div class=\"tname\">" + c.school + "</div>"
             + "<div class=\"cname\">" + c.title + "</div>"
             + "<div class=\"tname\">" + c.teacher + "</div>"
-            + "<div>Enrolled in: " + c.in.format("MMM, YYYY") + "</div>"
+            + "<div class=\"cname\">Enrolled in: " + c.in.format("MMM, YYYY") + "</div>"
             + suffix
     );
   }

@@ -648,10 +648,10 @@ code {
   white-space: pre;
 }
 
-/*countdown css*/
+/*right side courselist css*/
 
 /* SIDEBAR */
-#countdown {
+#courses {
   height: 100%;
   overflow: auto;
   position: fixed;
@@ -693,6 +693,7 @@ padding-bottom: 15px;
 padding-right: 30px;
 /*font-size: 14px;*/
 }
+
 /* The cells that contain each deadline */
 .course {
 padding: 10px;
@@ -701,7 +702,13 @@ background-color: #EEE;
 border: 1px solid #DDD;
 cursor: pointer;
 position: relative;
+width: 238px;
+font-size: 6px;
+word-wrap: break-word;
+word-break: break-all;
+overflow: hidden;
 }
+
 .course:hover {
 background-color: #DDD;
 border: 1px solid #AAA;
@@ -719,25 +726,18 @@ text-decoration: none;
 /* Time left description div */
 .tld {
 float: right;
-font-size: 18px;
+font-size: 10px;
 font-weight: bold;
 margin-top: 16px;
 }
 /* Area description div */
 .tname {
 font-family: monospace;
+font-size: 7px;
+
 }
 
-/* Venue description div */
 .cname {
 font-weight: bold;
-font-size: 16px;
-}
-/* Warning div */
-.wd {
-position: absolute;
-bottom: 10px;
-right: 8px;
-color: #700;
 font-size: 10px;
 }
