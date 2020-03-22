@@ -397,6 +397,77 @@ courses.push({
   in: moment("2015 January", "YYYY MMM")
 });
 
+/*
+Princeton algs4&books(more)
+Stanford Algorithms
+LeetCode
+CodeForces
+Timus
+Programming Challenges(Skiena)
+hihocoder
+rqnoj
+zengzonggen
+poj
+project euler
+hackerrank
+npu100
+codejam
+topcoder
+art of programming contests
+K&R C
+programmr
+yuanquan contest
+codehunt
+编程之美
+codinggame
+practice@APlusClick
+UW programming language
+UW HW SW interface
+1Blue3Brown
+Khan
+18.06
+AOPS
+Lumosity
+6515
+6505
+ITMOx
+UCB 188 AI
+Intro to Phiolophy
+HTML5
+Microsoft Edx courses
+台大 工程制图
+yebingcheng 机率
+MIT prob
+Edx 创业 101
+MIT Java
+陆 计算机组成
+UIUC Android
+Udacity CUDA
+Stanford DB
+Stanford Compiler
+Stanford statistical learning
+Stanford mmds
+Stanford convex101
+Tsinghua 线性代数
+Tsinghua 组合数学
+UCSD CG
+Stanford CS101
+Stanford 经济 101
+学堂 前端
+邓公 算法训练营
+Tsinghua 操作系统
+Tsinghua Linux 编程 for IOS
+学堂在线 写好科研论文
+Stanford sci writing
+edx mongodb
+Peter Robotics
+昆士兰 think101
+IELTS
+TOEFL
+fun with prime numbers
+brownU matrix
+BrownU 考古
+*/
 
 // HELPER FUNCTIONS
 // Display function, called every second or so
