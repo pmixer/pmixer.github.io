@@ -9698,7 +9698,7 @@ $('#sidebar a').each(function () {
 
 // Hide all/Show all links
 
-$('#content').prepend('<a class=\'control hide\' href=\'http://huangzan.me\'> Who I am </a>');
+$('#content').prepend('<a class=\'control hide\' href=\'https://www.linkedin.com/in/pmixer/\'> Who I am </a>');
 
 var show = $('<a class=\'control show\'>Show all</a>');
 show.click(function () {
