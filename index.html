@@ -6,11 +6,15 @@ layout: default
 	{% include sidebar.html %}
 </nav>
 
+<nav> <!-- id='courses'> repeated id caused problem on safari -->
+	{% include courses.html %}
+</nav>
+
 <section id='content'>
   {% for post in site.posts %}
     <article class='{{ post.category }}'>
       <a name='{{ post.url }}' href='#{{ post.url }}'>
-        <h2>{% if post.category %}<code><b>{{ post.category }}</b> {{ post.note }}</code> {% endif %}{{ post.title }}</h2>
+        <h2>{{ post.title }} {% if post.category %}<code><b>{{ post.category }}</b> {{ post.note }}</code> {% endif %}</h2>
       </a>
       <section class='body'>
         {{ post.content }}
@@ -37,7 +41,3 @@ layout: default
   </script>
   <!-- Gitalk end -->
 </section>
-
-<nav id='courses'>
-	{% include courses.html %}
-</nav>

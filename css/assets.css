@@ -653,7 +653,11 @@ code {
 /* SIDEBAR */
 #courses {
   height: 100%;
-  overflow: auto;
+  overflow: scroll;
+  /* position: -webkit-sticky; */
+  -webkit-overflow-scrolling: touch;
+  display: show;
+  /* white-space: nowrap; */
   position: fixed;
   top: 0;
   right: 0;
