@@ -741,3 +741,20 @@ font-size: 7px;
 font-weight: bold;
 font-size: 10px;
 }
+
+@media screen and (max-width: 1221px) {
+  .courses_may_hide {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 888px) {
+  .sidebar_may_hide {
+    visibility: hidden;
+  }
+
+  #content {
+    padding-left: 20px;
+    max-width: none;
+  }
+}
