@@ -24,7 +24,6 @@ Moreover, merge sort is sometimes used for counting reverse pairs for solve prog
 
 The code as below serves as an reference implementation of merge sort(with count), same +buff trick could also be used for accelerating merge sort in parallel computing setting.
 
-{% highlight c,c++ %}
 ```cpp
 int merge_and_count(long long *arr, int lo, int mi, int hi, long long *buff)
 {
@@ -69,6 +68,5 @@ int count_by_mergesort(long long *arr, int lo, int hi, long long *buff)
     return res1+res2+res3;
 }
 ```
-{% endhighlight %}
 
 Have a great Monday :)
