@@ -1,31 +1,28 @@
-# exclude: ['README.md']
-# pygments: true
+exclude: ['README.md']
+pygments: true
 # safe: false
 
 # Site settings
 title: MIND LOG
 subtitle: Celebrating Human Minds
-description: >-
-    Personal site for collaborative learning.
+description: Personal site for collaborative learning.
 author: pmixer
 email: dreaming underscore hz at hotmail dot com
 timezone: Asia/Shanghai
-url: "https://paperexplained.engineer/"
+url: "https://pay4trip.bid/"
 
-# be social
+# social
 github_url:  https://github.com/pmixer
 linkedin_url: https://www.linkedin.com/in/pmixer/
-encoding: UTF-8
 
 # Build settings
-markdown: kramdown
-permalink: /:path
+encoding: UTF-8
+markdown: redcarpet
+permalink: pretty
 
 highlighter: rouge
-kramdown:
-  input: GFM
-  auto_ids: true
-  syntax_highlighter: rouge
-# avatar: .png
 
-theme: null # jekyll-theme-hacker
+redcarpet:
+  input: Markdown
+  # auto_ids: true
+  syntax_highlighter: rouge

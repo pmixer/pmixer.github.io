@@ -4,6 +4,8 @@
    HTML5 display definitions
    ========================================================================== */
 
+@import "./github.scss"; /* 'monokai' as example */
+
 /**
  * Correct `block` display not defined in IE 8/9.
  */
@@ -426,7 +428,7 @@ textarea {
 
 a {
   color: #119bdf;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 a:hover {
   color: #29aeef;
@@ -533,7 +535,7 @@ code {
 }
 
 #content article {
-  clear: both;
+  /* clear: both; */
   margin: 15px 0;
 }
 
@@ -548,7 +550,7 @@ code {
 }
 #content article > a:hover {
   background: #222;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 #content a h2 {
@@ -721,11 +723,11 @@ cursor: default;
 /* website */
 a:link {
 color: black;
-text-decoration: none;
+/* text-decoration: none; */
 }
 a:visited {
 color: black;
-text-decoration: none;
+/* text-decoration: none; */
 }
 /* Time left description div */
 .tld {
