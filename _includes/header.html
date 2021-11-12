@@ -1,0 +1,18 @@
+<aside class="logo">
+    {% if page.url == '/index.html' or page.url == '/' %}
+        {% assign link = '/about' %}
+        {% assign prompt = 'About the Author'
+	%}
+    {% else %}
+        {% assign link = '/' %}
+        {% assign prompt = 'Back to Home' %}
+    {% endif %}
+
+    <a href="{{ link | prepend: site.baseurl }}">
+        <!-- <img class="gravatar" src="https://www.gravatar.com/avatar/{{ site.author_gravatar }}.png?s=80"> -->
+        <img class="gravatar" src="https://avatars.githubusercontent.com/u/13297503?s=80">
+    </a>
+    <span class="logo-prompt">{{ prompt }}</span>
+
+    <!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=260 height=52 src="//music.163.com/outchain/player?type=2&id=1423883598&auto=1&height=32"></iframe> -->
+</aside>

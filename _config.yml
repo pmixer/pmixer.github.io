@@ -1,0 +1,48 @@
+# Site Info
+title: "MIND LOG"
+subtitle: "Celebrating Human Minds"
+description: "Personal site for collaborative learning"
+# google_verify:      abc123 # TODO: Put your Google Site Verification here
+google_analytics:   UA-80198254-1
+
+# Author Info
+author_name:        "黄(Huáng)瓒(Zàn)" # Your name here
+
+# Site Settings
+url:                 https://pay4trip.bid # Change to your site
+baseurl:
+permalink:          /posts/:title # Post permalink
+timezone:           Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+mathjax:            true  # enables support for mathjax - set to false to disable
+
+# Site Build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+plugins:
+  - jekyll-sitemap
+
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
