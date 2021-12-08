@@ -9,7 +9,7 @@ google_analytics:   UA-80198254-1
 author_name:        "黄(Huáng)瓒(Zàn)" # Your name here
 
 # Site Settings
-url:                 https://pay4trip.bid # Change to your site
+url:                 https://pmixer.github.io # Change to your site
 baseurl:
 permalink:          /posts/:title # Post permalink
 timezone:           Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
